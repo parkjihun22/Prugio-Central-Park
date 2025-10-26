@@ -57,23 +57,23 @@ const ComplexGuide1 = () => {
           <meta name="robots" content="index, follow" />
 
           {/* SEO */}
-          <title>관저 푸르지오 - 체크포인트</title>
+          <title>평촌 롯데캐슬 르씨엘 - 체크포인트</title>
           <meta
             name="description"
-            content="관저 푸르지오 체크포인트: 모집공고·인터넷청약 전 확인사항, 자격 요건, 제출 서류, 일정 등 꼭 살펴봐야 할 핵심 체크리스트를 제공합니다."
+            content="평촌 롯데캐슬 르씨엘 체크포인트: 모집공고·인터넷청약 전 확인사항, 자격 요건, 제출 서류, 일정 등 꼭 살펴봐야 할 핵심 체크리스트를 제공합니다."
           />
           <meta
             name="keywords"
-            content="관저 푸르지오, 관저 푸르지오 임대, 체크포인트, 청약 체크리스트, 제출 서류, 일정"
+            content="평촌 롯데캐슬 르씨엘, 평촌 롯데캐슬 르씨엘, 체크포인트, 청약 체크리스트, 제출 서류, 일정"
           />
           <link rel="canonical" href="https://www.abcya4.com/SalesInfo/SubscriptionGuide" />
 
           {/* Open Graph */}
-          <meta property="og:site_name" content="관저 푸르지오" />
-          <meta property="og:title" content="관저 푸르지오 - 체크포인트" />
+          <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+          <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 체크포인트" />
           <meta
             property="og:description"
-            content="관저 푸르지오 임대 청약 전 꼭 확인해야 할 체크리스트: 자격·서류·일정 안내."
+            content="평촌 롯데캐슬 르씨엘 청약 전 꼭 확인해야 할 체크리스트: 자격·서류·일정 안내."
           />
           <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
           <meta property="og:url" content="https://www.abcya4.com/SalesInfo/SubscriptionGuide" />
@@ -84,8 +84,8 @@ const ComplexGuide1 = () => {
               {
                 "@context": "https://schema.org",
                 "@type": "WebPage",
-                "name": "관저 푸르지오 - 체크포인트",
-                "description": "관저 푸르지오 임대 청약 전 확인사항(자격, 제출 서류, 일정)을 정리한 체크리스트 페이지입니다.",
+                "name": "평촌 롯데캐슬 르씨엘 - 체크포인트",
+                "description": "평촌 롯데캐슬 르씨엘 청약 전 확인사항(자격, 제출 서류, 일정)을 정리한 체크리스트 페이지입니다.",
                 "url": "https://www.abcya4.com/SalesInfo/SubscriptionGuide"
               }
             `}
@@ -100,15 +100,15 @@ const ComplexGuide1 = () => {
         <MenuBar contents={menuContents} />
 
         {/* 접근성 텍스트 */}
-        <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 체크포인트</h1>
+        <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 체크포인트</h1>
         <p className={styles.screenReaderOnly}>
-          관저 푸르지오 임대 청약을 준비하는 분들을 위한 체크포인트입니다.
+          평촌 롯데캐슬 르씨엘 청약을 준비하는 분들을 위한 체크포인트입니다.
           자격 요건, 준비 서류, 주요 일정 등을 한눈에 확인하고 실수 없이 준비하세요.
         </p>
 
         <div className={styles.textBox}>
           <div>청약 전, 꼭 확인해야 할 것들</div>
-          <div>관저 푸르지오 체크포인트</div>
+          <div>평촌 롯데캐슬 르씨엘 체크포인트</div>
         </div>
 
 
@@ -118,7 +118,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오청약체크포인트-image1"
+        alt="평촌 롯데캐슬 르씨엘청약체크포인트-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

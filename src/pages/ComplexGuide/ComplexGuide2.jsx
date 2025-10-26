@@ -47,45 +47,46 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>관저 푸르지오 - 호수배치도</title>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <title>평촌 롯데캐슬 르씨엘 - 호수배치도</title>
 
-        {/* 기본 SEO */}
-        <meta
-          name="description"
-          content="관저 푸르지오 호수 배치도: 동·라인별 호수 위치, 향/뷰, 타입 연계를 한눈에 확인하세요."
-        />
-        <meta
-          name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 호수배치도, 동배치, 타입별 호수"
-        />
-        <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/detailintro" />
+      {/* 기본 SEO */}
+      <meta
+        name="description"
+        content="평촌 롯데캐슬 르씨엘 호수배치도 페이지입니다. 동·라인별 호수 위치, 향과 뷰, 타입별 구성을 한눈에 확인하세요."
+      />
+      <meta
+        name="keywords"
+        content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 평촌 르씨엘 호수배치도, 동배치도, 타입별 호수"
+      />
+      <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/detailintro" />
 
-        {/* Open Graph (핵심만) */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 호수배치도" />
-        <meta
-          property="og:description"
-          content="관저 푸르지오의 동·라인·호수 배치를 확인하고 희망 세대를 쉽게 찾아보세요."
-        />
-        <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/detailintro" />
-        <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+      {/* Open Graph (SNS 공유 핵심) */}
+      <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+      <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 호수배치도" />
+      <meta
+        property="og:description"
+        content="평촌 롯데캐슬 르씨엘의 동·라인·호수 배치와 타입별 구성을 한눈에 확인하세요."
+      />
+      <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/detailintro" />
+      <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
 
-        {/* JSON-LD (간단 버전) */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "관저 푸르지오 - 호수배치도",
-              "description": "관저 푸르지오의 동·라인·호수 배치와 타입 연계를 안내합니다.",
-              "url": "https://www.abcya4.com/ComplexGuide/detailintro"
-            }
-          `}
-        </script>
-      </Helmet>
+      {/* JSON-LD (간단 버전) */}
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "평촌 롯데캐슬 르씨엘 - 호수배치도",
+            "description": "평촌 롯데캐슬 르씨엘의 동·라인별 호수 위치와 타입 연계를 한눈에 확인할 수 있는 호수배치도 페이지입니다.",
+            "url": "https://www.abcya4.com/ComplexGuide/detailintro"
+          }
+        `}
+      </script>
+    </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -93,15 +94,15 @@ const ComplexGuide1 = () => {
 
       <MenuBar contents={menuContents} />
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 호수배치도</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 호수배치도</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 호수 배치도 페이지입니다. 동·라인별 호수 위치와 향/뷰,
+        평촌 롯데캐슬 르씨엘 호수 배치도 페이지입니다. 동·라인별 호수 위치와 향/뷰,
         타입 연계 정보를 제공하여 원하는 세대를 쉽고 정확하게 찾을 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
         <div>내가 선택할 단 하나의 호수</div>
-        <div>관저 푸르지오의 동·라인·뷰를 한눈에</div>
+        <div>평촌 롯데캐슬 르씨엘의 동·라인·뷰를 한눈에</div>
       </div>
 
 
@@ -111,7 +112,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오호수배치도-image1"
+        alt="평촌 롯데캐슬 르씨엘호수배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

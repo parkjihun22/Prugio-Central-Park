@@ -53,61 +53,62 @@ const BusinessGuide2 = () => {
 
   return (
     <div className={styles.container}>
-        <Helmet>
-          {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-          <meta charSet="utf-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1"
-          />
-          <meta name="theme-color" content="#ffffff" />
-          <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-          {/* SEO 최적화를 위한 메타 태그 */}
-          <title>관저 푸르지오 - 분양일정</title>
-          <meta
-            name="description"
-            content="관저 푸르지오의 분양(임대) 일정을 한눈에 확인하세요. 모집공고, 접수, 서류 제출, 당첨자 발표 등 핵심 일정을 안내해 드립니다."
-          />
-          <meta
-            name="keywords"
-            content="관저 푸르지오, 관저 푸르지오 임대, 대전 관저동 임대아파트, 분양일정, 청약일정, 모집공고"
-          />
-          <link rel="canonical" href="https://www.abcya4.com/BusinessGuide/plan" />
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>평촌 롯데캐슬 르씨엘 - 분양일정</title>
+  <meta
+    name="description"
+    content="경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 분양(임대) 일정을 한눈에 확인하세요. 모집공고, 청약접수, 서류 제출, 당첨자 발표 등 주요 일정을 안내합니다."
+  />
+  <meta
+    name="keywords"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 안양 신축 아파트, 평촌 르씨엘 분양일정, 청약일정, 모집공고"
+  />
+  <link rel="canonical" href="https://www.abcya4.com/BusinessGuide/plan" />
 
-          {/* Open Graph - 소셜 미디어 공유 최적화 */}
-          <meta property="og:title" content="관저 푸르지오 - 분양일정" />
-          <meta
-            property="og:description"
-            content="관저 푸르지오의 분양(임대) 일정과 안내사항을 확인하세요. 모집공고부터 당첨자 발표까지 주요 일정을 제공합니다."
-          />
-          <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
-          <meta property="og:url" content="https://www.abcya4.com/BusinessGuide/plan" />
-          <meta property="og:site_name" content="관저 푸르지오" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 분양일정" />
+  <meta
+    property="og:description"
+    content="평촌 롯데캐슬 르씨엘의 분양(임대) 일정을 확인하세요. 모집공고부터 청약접수, 당첨자 발표까지 한눈에 볼 수 있습니다."
+  />
+  <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+  <meta property="og:url" content="https://www.abcya4.com/BusinessGuide/plan" />
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
 
-          {/* Twitter 카드 설정 */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="관저 푸르지오 - 분양일정" />
-          <meta
-            name="twitter:description"
-            content="관저 푸르지오의 분양(임대) 핵심 일정을 한 곳에서 확인하세요."
-          />
-          <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
-          <meta name="twitter:url" content="https://www.abcya4.com/BusinessGuide/plan" />
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 분양일정" />
+  <meta
+    name="twitter:description"
+    content="경기도 안양 평촌 롯데캐슬 르씨엘의 분양(임대) 일정을 한눈에 확인하세요. 모집공고 및 당첨자 발표 정보를 안내합니다."
+  />
+  <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.abcya4.com/BusinessGuide/plan" />
 
-          {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-          <script type="application/ld+json">
-            {`
-              {
-                "@context": "https://schema.org",
-                "@type": "WebPage",
-                "name": "관저 푸르지오 - 분양일정",
-                "description": "관저 푸르지오의 분양(임대) 일정과 모집공고, 접수, 당첨자 발표 등 핵심 일정을 안내합니다.",
-                "url": "https://www.abcya4.com/BusinessGuide/plan"
-              }
-            `}
-          </script>
-        </Helmet>
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 분양일정",
+        "description": "경기도 안양 평촌 롯데캐슬 르씨엘의 분양(임대) 일정과 모집공고, 청약, 당첨자 발표 등 주요 일정을 안내합니다.",
+        "url": "https://www.abcya4.com/BusinessGuide/plan"
+      }
+    `}
+  </script>
+</Helmet>
+
 
         <Header isChanged={isScroll} />
         <FixIcon />
@@ -117,17 +118,17 @@ const BusinessGuide2 = () => {
         <MenuBar contents={menuContents} />
         {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
         <h1 className={styles.screenReaderOnly}>
-          관저 푸르지오 - 분양일정
+          평촌 롯데캐슬 르씨엘 - 분양일정
         </h1>
         <p className={styles.screenReaderOnly}>
-          관저 푸르지오의 분양(임대) 일정 안내 페이지입니다.
+          평촌 롯데캐슬 르씨엘의 분양(임대) 일정 안내 페이지입니다.
           모집공고 게시, 청약 접수, 서류 제출, 당첨자 발표 등
           핵심 일정을 확인하시고 준비에 도움이 되는 안내를 제공합니다.
         </p>
 
         <div className={styles.textBox}>
-          <div>관저 중심의 프리미엄 라이프</div>
-          <div>관저 푸르지오, 중요한 일정부터 꼼꼼히 챙기세요</div>
+          <div>평촌 중심의 프리미엄 라이프</div>
+          <div>평촌 롯데캐슬 르씨엘, 중요한 일정부터 꼼꼼히 챙기세요</div>
         </div>
 
 
@@ -135,7 +136,7 @@ const BusinessGuide2 = () => {
       {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
-        alt="관저 푸르지오분양일정안내-image1"
+        alt="평촌 롯데캐슬 르씨엘분양일정안내-image1"
       /> */}
       <Ready/>
 

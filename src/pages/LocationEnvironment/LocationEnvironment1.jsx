@@ -23,7 +23,7 @@ const LocationSection = [
   {
     img: section2Image1,
     titleText:
-      "가시화되는 개발호재로<br />관저의 미래가치가 높아집니다",
+      "가시화되는 개발호재로<br />평촌의 미래가치가 높아집니다",
     contentText:
       "충청권 광역철도·대전 2호선 트램(예정) 연계<br />서대전IC·계백로·도안대로 등 광역 교통망",
   },
@@ -93,58 +93,59 @@ const LocationEnvironment1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 메타 */}
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 메타 */}
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-        {/* SEO */}
-        <title>관저 푸르지오 - 입지안내</title>
-        <meta
-          name="description"
-          content="대전 서구 관저동 관저 푸르지오의 입지 안내: 관저 중심의 생활 인프라, 편리한 광역 교통, 쾌적한 녹지 환경과 주변 편의시설 정보를 확인하세요."
-        />
-        <meta
-          name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 대전 관저동, 입지안내, 교통, 생활 인프라"
-        />
-        <link rel="canonical" href="https://www.abcya4.com/LocationEnvironment/intro" />
+  {/* SEO */}
+  <title>평촌 롯데캐슬 르씨엘 - 입지안내</title>
+  <meta
+    name="description"
+    content="평촌 롯데캐슬 르씨엘 입지 안내: 평촌 중심의 생활 인프라, 쾌적한 녹지 환경, 편리한 광역 교통과 주변 편의시설을 한눈에 확인하세요."
+  />
+  <meta
+    name="keywords"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 평촌 르씨엘 입지, 교통, 생활 인프라, 녹지, 주변 편의시설"
+  />
+  <link rel="canonical" href="https://www.abcya4.com/LocationEnvironment/intro" />
 
-        {/* Open Graph */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 입지안내" />
-        <meta
-          property="og:description"
-          content="관저 중심 인프라와 광역 교통, 녹지 환경을 갖춘 관저 푸르지오의 입지 정보를 확인하세요."
-        />
-        <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
-        <meta property="og:url" content="https://www.abcya4.com/LocationEnvironment/intro" />
+  {/* Open Graph */}
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 입지안내" />
+  <meta
+    property="og:description"
+    content="평촌 중심의 생활 인프라, 광역 교통, 녹지 환경을 갖춘 평촌 롯데캐슬 르씨엘의 입지 정보를 확인하세요."
+  />
+  <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+  <meta property="og:url" content="https://www.abcya4.com/LocationEnvironment/intro" />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="관저 푸르지오 - 입지안내" />
-        <meta
-          name="twitter:description"
-          content="관저 푸르지오의 교통·생활·녹지 인프라를 한눈에."
-        />
-        <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
-        <meta name="twitter:url" content="https://www.abcya4.com/LocationEnvironment/intro" />
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 입지안내" />
+  <meta
+    name="twitter:description"
+    content="평촌 롯데캐슬 르씨엘의 교통·생활·녹지 인프라를 한눈에 확인하세요."
+  />
+  <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.abcya4.com/LocationEnvironment/intro" />
 
-        {/* JSON-LD */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "관저 푸르지오 - 입지안내",
-              "description": "대전 서구 관저동 관저 푸르지오의 교통, 생활 인프라, 녹지 환경 등 입지 정보를 제공합니다.",
-              "url": "https://www.abcya4.com/LocationEnvironment/intro"
-            }
-          `}
-        </script>
-      </Helmet>
+  {/* JSON-LD */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 입지안내",
+        "description": "평촌 롯데캐슬 르씨엘의 교통, 생활 인프라, 녹지 환경 등 주요 입지 정보를 제공합니다.",
+        "url": "https://www.abcya4.com/LocationEnvironment/intro"
+      }
+    `}
+  </script>
+</Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -153,15 +154,15 @@ const LocationEnvironment1 = () => {
 
       <MenuBar contents={menuContents} />
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 입지안내</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 입지안내</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오의 위치와 주변 인프라를 종합적으로 안내합니다. 교통, 교육,
+        평촌 롯데캐슬 르씨엘의 위치와 주변 인프라를 종합적으로 안내합니다. 교통, 교육,
         상업·문화시설, 공원과 녹지 등 일상에 필요한 요소를 가까이에서 누릴 수 있습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>관저 중심의 프리미엄 라이프</div>
-        <div>살수록 높아지는 가치, 관저 푸르지오</div>
+        <div>평촌 중심의 프리미엄 라이프</div>
+        <div>살수록 높아지는 가치, 평촌 롯데캐슬 르씨엘</div>
         <div>일상과 자연, 모두 가까운 입지</div>
       </div>
 
@@ -169,7 +170,7 @@ const LocationEnvironment1 = () => {
       <img
         src={page1}
         className={styles.image2}
-        alt="관저 푸르지오 입지안내 이미지"
+        alt="평촌 롯데캐슬 르씨엘 입지안내 이미지"
       />
 
       <div className={styles.section2}>

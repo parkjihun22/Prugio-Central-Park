@@ -61,33 +61,33 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO */}
-        <title>관저 푸르지오 - 인터넷청약</title>
+        <title>평촌 롯데캐슬 르씨엘 - 인터넷청약</title>
         <meta
           name="description"
-          content="관저 푸르지오 인터넷청약 안내: 신청 전 확인사항, 접수 절차, 자격 요건, 제출 서류 등 핵심 정보를 한눈에 확인하세요."
+          content="평촌 롯데캐슬 르씨엘 인터넷청약 안내: 신청 전 확인사항, 접수 절차, 자격 요건, 제출 서류 등 핵심 정보를 한눈에 확인하세요."
         />
         <meta
           name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 인터넷청약, 청약안내, 온라인 접수"
+          content="평촌 롯데캐슬 르씨엘, 평촌 롯데캐슬 르씨엘, 인터넷청약, 청약안내, 온라인 접수"
         />
         <link rel="canonical" href="https://www.abcya4.com/SalesInfo/guide" />
 
         {/* Open Graph */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 인터넷청약" />
+        <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+        <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 인터넷청약" />
         <meta
           property="og:description"
-          content="관저 푸르지오 인터넷청약 절차와 자격, 제출 서류를 확인하세요."
+          content="평촌 롯데캐슬 르씨엘 인터넷청약 절차와 자격, 제출 서류를 확인하세요."
         />
         <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
         <meta property="og:url" content="https://www.abcya4.com/SalesInfo/guide" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="관저 푸르지오 - 인터넷청약" />
+        <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 인터넷청약" />
         <meta
           name="twitter:description"
-          content="관저 푸르지오 인터넷청약 가이드: 접수 절차·자격·서류 안내."
+          content="평촌 롯데캐슬 르씨엘 인터넷청약 가이드: 접수 절차·자격·서류 안내."
         />
         <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
         <meta name="twitter:url" content="https://www.abcya4.com/SalesInfo/guide" />
@@ -98,8 +98,8 @@ const ComplexGuide1 = () => {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "관저 푸르지오 - 인터넷청약",
-              "description": "관저 푸르지오 인터넷청약 절차, 자격 요건, 제출 서류 안내.",
+              "name": "평촌 롯데캐슬 르씨엘 - 인터넷청약",
+              "description": "평촌 롯데캐슬 르씨엘 인터넷청약 절차, 자격 요건, 제출 서류 안내.",
               "url": "https://www.abcya4.com/SalesInfo/guide"
             }
           `}
@@ -113,15 +113,15 @@ const ComplexGuide1 = () => {
 
       <MenuBar contents={menuContents} />
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 인터넷청약</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 인터넷청약</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 인터넷청약 안내 페이지입니다. 신청 전 확인사항, 접수 절차,
+        평촌 롯데캐슬 르씨엘 인터넷청약 안내 페이지입니다. 신청 전 확인사항, 접수 절차,
         자격 요건과 제출 서류를 확인하고 온라인으로 간편하게 신청하세요.
       </p>
 
       <div className={styles.textBox}>
         <div>온라인으로 간편하게 신청하세요</div>
-        <div>관저 푸르지오 인터넷청약 가이드</div>
+        <div>평촌 롯데캐슬 르씨엘 인터넷청약 가이드</div>
       </div>
 
 
@@ -131,7 +131,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오청약안내-image1"
+        alt="평촌 롯데캐슬 르씨엘청약안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       /> */}
       <Ready/>

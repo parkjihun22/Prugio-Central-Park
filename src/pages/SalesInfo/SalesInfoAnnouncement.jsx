@@ -76,23 +76,23 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO */}
-        <title>관저 푸르지오 - 모집공고안내</title>
+        <title>평촌 롯데캐슬 르씨엘 - 모집공고안내</title>
         <meta
           name="description"
-          content="관저 푸르지오 입주자 모집공고 안내: 공고문, 접수 일정, 자격 요건, 제출 서류를 한눈에 확인하세요."
+          content="평촌 롯데캐슬 르씨엘 입주자 모집공고 안내: 공고문, 접수 일정, 자격 요건, 제출 서류를 한눈에 확인하세요."
         />
         <meta
           name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 입주자 모집공고, 청약 안내, 서류 제출"
+          content="평촌 롯데캐슬 르씨엘, 평촌 롯데캐슬 르씨엘, 입주자 모집공고, 청약 안내, 서류 제출"
         />
         <link rel="canonical" href="https://www.abcya4.com/SalesInfo/announcement" />
 
         {/* Open Graph */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 모집공고안내" />
+        <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+        <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 모집공고안내" />
         <meta
           property="og:description"
-          content="관저 푸르지오 입주자 모집공고: 일정·자격·서류 안내."
+          content="평촌 롯데캐슬 르씨엘 입주자 모집공고: 일정·자격·서류 안내."
         />
         <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
         <meta property="og:url" content="https://www.abcya4.com/SalesInfo/announcement" />
@@ -103,8 +103,8 @@ const ComplexGuide1 = () => {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "관저 푸르지오 - 모집공고안내",
-              "description": "관저 푸르지오 입주자 모집공고의 일정, 자격 요건, 제출 서류를 안내합니다.",
+              "name": "평촌 롯데캐슬 르씨엘 - 모집공고안내",
+              "description": "평촌 롯데캐슬 르씨엘 입주자 모집공고의 일정, 자격 요건, 제출 서류를 안내합니다.",
               "url": "https://www.abcya4.com/SalesInfo/announcement"
             }
           `}
@@ -119,15 +119,15 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
 
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 모집공고안내</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 모집공고안내</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 입주자 모집공고 페이지입니다. 공고문과 접수 일정, 자격 요건,
+        평촌 롯데캐슬 르씨엘 입주자 모집공고 페이지입니다. 공고문과 접수 일정, 자격 요건,
         제출 서류 등 청약 준비에 필요한 핵심 정보를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
         <div>입주자 모집공고를 확인하세요</div>
-        <div>관저 푸르지오</div>
+        <div>평촌 롯데캐슬 르씨엘</div>
       </div>
 
 
@@ -136,7 +136,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오모집공고안내-image1"
+        alt="평촌 롯데캐슬 르씨엘모집공고안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       /> */}
 

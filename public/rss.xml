@@ -1,163 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>관저 푸르지오</title>
+    <title>평촌 롯데캐슬 르씨엘</title>
     <link>https://www.abcya4.com/</link>
-    <description><![CDATA[
-      관저 푸르지오 공식 사이트 RSS 피드입니다. 브랜드소개, 사업개요, 분양안내, 입지환경, 단지안내, 세대안내, 인테리어 등 핵심 정보를 빠르게 받아보세요.
-    ]]></description>
-    <language>ko-kr</language>
-    <lastBuildDate>Tue, 30 Sep 2025 12:00:00 +0900</lastBuildDate>
-    <ttl>60</ttl>
+    <description>평촌 롯데캐슬 르씨엘 공식 안내 RSS입니다. 단지 개요, 위치 및 생활권, 분양·청약 안내, 평면 정보, 커뮤니티, 보도자료 등을 확인하실 수 있습니다.</description>
+    <language>ko-KR</language>
+    <atom:link href="https://www.abcya4.com/rss.xml" rel="self" type="application/rss+xml"/>
 
-    <!-- 브랜드소개 -->
+    <item>
+      <title>모바일 상담 예약</title>
+      <link>https://www.abcya4.com/Promotion/Customer</link>
+      <guid isPermaLink="true">https://www.abcya4.com/Promotion/Customer</guid>
+      <description><![CDATA[모바일로 편리하게 상담을 예약하실 수 있습니다. 기본 안내와 문의 접수 후 담당자가 순차적으로 연락드립니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
     <item>
       <title>브랜드 소개</title>
       <link>https://www.abcya4.com/Brand/intro</link>
-      <description><![CDATA[
-        관저 푸르지오의 브랜드 철학과 가치를 소개합니다. 고객 중심 설계와 신뢰할 수 있는 품질로 프리미엄 주거문화를 지향합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/Brand/intro</guid>
+      <description><![CDATA[롯데캐슬 브랜드의 주거 철학과 디자인 방향, 품질 기준을 소개합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
     <item>
-      <title>홍보 영상</title>
+      <title>홍보영상</title>
       <link>https://www.abcya4.com/Brand/video</link>
-      <description><![CDATA[
-        관저 푸르지오의 설계·입지·커뮤니티 등 핵심 매력을 영상으로 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/Brand/video</guid>
+      <description><![CDATA[평촌 권역의 생활 인프라와 단지 가치를 영상으로 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 사업개요 -->
     <item>
-      <title>사업안내</title>
+      <title>사업 안내</title>
       <link>https://www.abcya4.com/BusinessGuide/intro</link>
-      <description><![CDATA[
-        단지 규모, 주택형, 시행·시공, 입지와 개발 계획 등 관저 푸르지오 임대의 핵심 정보를 제공합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>장기민간임대란</title>
-      <link>https://www.abcya4.com/BusinessGuide/documents</link>
-      <description><![CDATA[
-        장기민간임대의 개념과 거주기간, 임대료 인상 제한, 보증 관련 안내 등 꼭 알아야 할 내용을 정리했습니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/BusinessGuide/intro</guid>
+      <description><![CDATA[경기도 안양시 동안구 평촌 생활권에 조성되는 대규모 브랜드 단지의 기본 개요를 확인하실 수 있습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 분양안내 -->
     <item>
-      <title>분양일정</title>
+      <title>분양 일정</title>
       <link>https://www.abcya4.com/BusinessGuide/plan</link>
-      <description><![CDATA[
-        모집공고, 접수, 서류 제출, 당첨자 발표 등 관저 푸르지오의 분양(임대) 일정을 한눈에 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>공급안내</title>
-      <link>https://www.abcya4.com/SalesInfo/guide</link>
-      <description><![CDATA[
-        인터넷청약 방법, 자격 요건, 제출 서류 등 신청 전 필수 정보를 안내합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>모집공고안내</title>
-      <link>https://www.abcya4.com/SalesInfo/announcement</link>
-      <description><![CDATA[
-        관저 푸르지오 입주자 모집공고 전문과 유의사항을 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/BusinessGuide/plan</guid>
+      <description><![CDATA[모델하우스 오픈, 청약 접수, 당첨자 발표, 계약 등 일정을 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 입지환경 -->
     <item>
-      <title>입지안내</title>
-      <link>https://www.abcya4.com/LocationEnvironment/intro</link>
-      <description><![CDATA[
-        관저 중심 생활 인프라, 교통 접근성, 녹지 환경 등 입지 강점을 소개합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <title>청약 방법 안내</title>
+      <link>https://www.abcya4.com/SalesInfo/SubscriptionGuide</link>
+      <guid isPermaLink="true">https://www.abcya4.com/SalesInfo/SubscriptionGuide</guid>
+      <description><![CDATA[온라인 청약 절차와 유의사항, 자주 묻는 질문을 정리했습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
+    <item>
+      <title>청약 안내문</title>
+      <link>https://www.abcya4.com/SalesInfo/guide</link>
+      <guid isPermaLink="true">https://www.abcya4.com/SalesInfo/guide</guid>
+      <description><![CDATA[청약 자격, 신청 방법, 제출 서류 및 일정에 관한 상세 안내입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>모집공고 안내</title>
+      <link>https://www.abcya4.com/SalesInfo/announcement</link>
+      <guid isPermaLink="true">https://www.abcya4.com/SalesInfo/announcement</guid>
+      <description><![CDATA[공급 규모, 금액, 자격 요건, 계약 일정 등 공식 모집공고 게재 시 확인하실 수 있습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>인지세 납부 안내</title>
+      <link>https://www.abcya4.com/SalesInfo/stampTax</link>
+      <guid isPermaLink="true">https://www.abcya4.com/SalesInfo/stampTax</guid>
+      <description><![CDATA[계약 시 인지세 납부 기준과 금액, 준비 절차를 간단히 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>입지 환경</title>
+      <link>https://www.abcya4.com/LocationEnvironment/intro</link>
+      <guid isPermaLink="true">https://www.abcya4.com/LocationEnvironment/intro</guid>
+      <description><![CDATA[지하철 4호선 평촌·범계역 생활권과 풍부한 생활 인프라를 갖춘 입지 특성을 소개합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
     <item>
       <title>프리미엄</title>
-      <link>https://www.abcya4.com/LocationEnvironment/primium</link>
-      <description><![CDATA[
-        특화 설계, 고급 마감, 스마트홈, 커뮤니티·조경·친환경 설비 등 프리미엄 요소를 만나보세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <link>https://www.abcya4.com/LocationEnvironment/premium</link>
+      <guid isPermaLink="true">https://www.abcya4.com/LocationEnvironment/premium</guid>
+      <description><![CDATA[교통, 교육, 쇼핑, 공원 등 생활 전반의 편의 요소를 종합적으로 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 단지안내 -->
     <item>
       <title>단지 배치도</title>
       <link>https://www.abcya4.com/ComplexGuide/intro</link>
-      <description><![CDATA[
-        동·라인 구성, 공용시설, 주차 동선 등 단지 전체 배치를 제공합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/ComplexGuide/intro</guid>
+      <description><![CDATA[단지 배치, 조경, 보행 동선 계획을 확인하실 수 있습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
     <item>
-      <title>호수 배치도</title>
+      <title>동·호수 배치</title>
       <link>https://www.abcya4.com/ComplexGuide/detailintro</link>
-      <description><![CDATA[
-        동·라인별 호수 위치, 향/뷰, 타입 연계 정보를 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/ComplexGuide/detailintro</guid>
+      <description><![CDATA[동·호수 배치 정보를 제공하여 채광과 조망 확인에 도움을 드립니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
     <item>
       <title>커뮤니티</title>
       <link>https://www.abcya4.com/ComplexGuide/community</link>
-      <description><![CDATA[
-        피트니스, 독서실, 골프연습장, 어린이놀이터 등 다양한 커뮤니티 시설을 소개합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/ComplexGuide/community</guid>
+      <description><![CDATA[피트니스, 라운지, 독서 공간 등 커뮤니티 시설 구성과 이용 안내입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 세대안내 -->
     <item>
-      <title>세대안내 84A</title>
+      <title>40</title>
+      <link>https://www.abcya4.com/FloorPlan/40</link>
+      <guid isPermaLink="true">https://www.abcya4.com/FloorPlan/40</guid>
+      <description><![CDATA[중소형 평형의 실용적 평면 구성과 수납·동선 계획을 소개합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>59A</title>
       <link>https://www.abcya4.com/FloorPlan/59A</link>
-      <description><![CDATA[
-        84A 타입(연결 페이지: /FloorPlan/59A)의 평면 구성과 수납 특화 설계를 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>세대안내 84B</title>
-      <link>https://www.abcya4.com/FloorPlan/59B</link>
-      <description><![CDATA[
-        84B 타입(연결 페이지: /FloorPlan/59B)의 공간 구성과 동선을 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>세대안내 84C</title>
-      <link>https://www.abcya4.com/FloorPlan/84A</link>
-      <description><![CDATA[
-        84C 타입(연결 페이지: /FloorPlan/84A)의 평면 정보와 특장점을 안내합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/FloorPlan/59A</guid>
+      <description><![CDATA[전용 59A 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <!-- 인테리어 -->
     <item>
-      <title>인테리어 84A</title>
+      <title>59B</title>
+      <link>https://www.abcya4.com/FloorPlan/59B</link>
+      <guid isPermaLink="true">https://www.abcya4.com/FloorPlan/59B</guid>
+      <description><![CDATA[전용 59B 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>E-모델하우스</title>
+      <link>https://www.abcya4.com/FloorPlan/Emodel</link>
+      <guid isPermaLink="true">https://www.abcya4.com/FloorPlan/Emodel</guid>
+      <description><![CDATA[온라인으로 단지와 평면, 인테리어를 사전 체험하실 수 있습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>인테리어</title>
       <link>https://www.abcya4.com/Interior/59A</link>
-      <description><![CDATA[
-        84A 타입(연결 페이지: /Interior/59A)의 인테리어 콘셉트와 마감 소재를 소개합니다.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://www.abcya4.com/Interior/59A</guid>
+      <description><![CDATA[타입별 인테리어 콘셉트와 마감·옵션 정보를 제공합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
     <item>
-      <title>인테리어 84C</title>
-      <link>https://www.abcya4.com/Interior/84A</link>
-      <description><![CDATA[
-        84C 타입(연결 페이지: /Interior/84A)의 인테리어 포인트와 옵션 정보를 확인하세요.
-      ]]></description>
-      <pubDate>Tue, 30 Sep 2025 12:00:00 +0900</pubDate>
+      <title>언론보도</title>
+      <link>https://www.abcya4.com/press</link>
+      <guid isPermaLink="true">https://www.abcya4.com/press</guid>
+      <description><![CDATA[단지 관련 보도자료와 기사 모음입니다. 공식 발표 및 언론 게재 내용을 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
+
+    <item>
+      <title>관심고객 등록</title>
+      <link>https://www.abcya4.com/Promotion/Customer</link>
+      <guid isPermaLink="true">https://www.abcya4.com/Promotion/Customer</guid>
+      <description><![CDATA[관심고객 등록 시 청약·모델하우스·일정 등 주요 안내를 우선 제공해 드립니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>

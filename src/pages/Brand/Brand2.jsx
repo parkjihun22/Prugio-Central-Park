@@ -43,61 +43,71 @@ const Brand2 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>관저 푸르지오 - 홍보영상</title>
-        <meta
-          name="description"
-          content="대전 서구 관저동 관저 푸르지오 임대의 핵심 가치와 특장점을 담은 공식 홍보영상입니다. 단지 설계, 입지, 생활 인프라, 커뮤니티 시설 등 다양한 매력을 영상으로 확인해 보세요."
-        />
-        <meta
-          name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 대전 관저동 임대아파트, 푸르지오 홍보영상, 장기임대, 전용 84㎡"
-        />
-        <link rel="canonical" href="https://www.abcya4.com/Brand/video" />
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>평촌 롯데캐슬 르씨엘 - 홍보영상</title>
+  <meta
+    name="description"
+    content="경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 공식 홍보영상입니다. 단지 설계, 입지, 생활 인프라, 호텔급 커뮤니티 등 르씨엘만의 프리미엄 가치를 영상으로 만나보세요."
+  />
+  <meta
+    name="keywords"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 안양 신축 아파트, 1기 신도시 재정비, 평촌 르씨엘 홍보영상"
+  />
+  <link rel="canonical" href="https://www.abcya4.com/Brand/video" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="관저 푸르지오 - 홍보영상" />
-        <meta
-          property="og:description"
-          content="관저 푸르지오 임대의 설계·입지·인프라를 한눈에 담은 공식 홍보영상. 프리미엄 생활의 기준을 영상으로 만나보세요."
-        />
-        <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
-        <meta property="og:url" content="https://www.abcya4.com/Brand/video" />
-        <meta property="og:site_name" content="관저 푸르지오" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 홍보영상" />
+  <meta
+    property="og:description"
+    content="안양 평촌의 새로운 랜드마크, 평촌 롯데캐슬 르씨엘의 공식 홍보영상. 설계, 입지, 생활 인프라, 커뮤니티 등 프리미엄 라이프를 영상으로 확인해 보세요."
+  />
+  <meta
+    property="og:image"
+    content="https://www.abcya4.com/images/og_main.png"
+  />
+  <meta property="og:url" content="https://www.abcya4.com/Brand/video" />
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="관저 푸르지오 - 홍보영상" />
-        <meta
-          name="twitter:description"
-          content="대전 관저 푸르지오 임대의 강점을 담은 공식 홍보영상. 단지와 생활환경의 가치를 생생하게 확인하세요."
-        />
-        <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
-        <meta name="twitter:url" content="https://www.abcya4.com/Brand/video" />
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 홍보영상" />
+  <meta
+    name="twitter:description"
+    content="경기도 안양시 동안구 평촌동에 들어서는 평촌 롯데캐슬 르씨엘의 공식 홍보영상. 단지의 설계 철학과 입지, 커뮤니티의 가치를 생생하게 만나보세요."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.abcya4.com/images/og_main.png"
+  />
+  <meta
+    name="twitter:url"
+    content="https://www.abcya4.com/Brand/video"
+  />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "관저 푸르지오 - 홍보영상",
-              "description": "관저 푸르지오 임대의 설계, 입지, 생활 인프라 등 핵심 가치를 담은 공식 홍보영상 페이지입니다.",
-              "url": "https://www.abcya4.com/Brand/video"
-            }
-          `}
-        </script>
-      </Helmet>
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 홍보영상",
+        "description": "경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 공식 홍보영상 페이지입니다. 설계, 입지, 생활 인프라 등 르씨엘의 핵심 가치를 한눈에 확인할 수 있습니다.",
+        "url": "https://www.abcya4.com/Brand/video"
+      }
+    `}
+  </script>
+</Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -107,18 +117,18 @@ const Brand2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        관저 푸르지오 - 홍보영상
+        평촌 롯데캐슬 르씨엘 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 임대의 공식 홍보영상은 단지 설계와 공간 특화,
-        관저 중심의 생활 인프라, 향후 교통 호재 등 핵심 장점을
+        평촌 롯데캐슬 르씨엘의 공식 홍보영상은 단지 설계와 공간 특화,
+        평촌 중심의 생활 인프라, 향후 교통 호재 등 핵심 장점을
         명확하고 직관적으로 전달합니다. 영상을 통해 프리미엄
         주거가치를 자세히 확인해 보세요.
       </p>
 
       <div className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}>
-        <div>관저의 일상을 바꾸는 프리미엄</div>
-        <div>관저 푸르지오, 영상으로 먼저 만나보세요</div>
+        <div>평촌의 일상을 바꾸는 프리미엄</div>
+        <div>평촌 롯데캐슬 르씨엘, 영상으로 먼저 만나보세요</div>
       </div>
 
 

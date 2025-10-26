@@ -47,58 +47,59 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>관저 푸르지오 - 단지배치도</title>
+<Helmet>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>평촌 롯데캐슬 르씨엘 - 단지배치도</title>
 
-        {/* 기본 SEO */}
-        <meta
-          name="description"
-          content="관저 푸르지오 단지 배치도: 동·라인 구성, 공용시설, 주차 동선 등 단지 전체 구성을 한눈에 확인하세요."
-        />
-        <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/intro" />
+  {/* 기본 SEO */}
+  <meta
+    name="description"
+    content="평촌 롯데캐슬 르씨엘 단지배치도 페이지입니다. 동·라인 구성, 커뮤니티 시설, 주차 및 보행 동선 등 단지 전체 구성을 한눈에 확인하세요."
+  />
+  <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/intro" />
 
-        {/* Open Graph (핵심만) */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 단지배치도" />
-        <meta
-          property="og:description"
-          content="관저 푸르지오 단지 배치도와 공용시설 배치를 확인하세요."
-        />
-        <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/intro" />
-        <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+  {/* Open Graph (SNS 공유 핵심) */}
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 단지배치도" />
+  <meta
+    property="og:description"
+    content="평촌 롯데캐슬 르씨엘의 단지배치도와 커뮤니티 시설 구성을 확인하세요."
+  />
+  <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/intro" />
+  <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
 
-        {/* JSON-LD (간단 버전) */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "관저 푸르지오 - 단지배치도",
-              "description": "관저 푸르지오 단지 배치도와 공용시설 배치를 제공합니다.",
-              "url": "https://www.abcya4.com/ComplexGuide/intro"
-            }
-          `}
-        </script>
-      </Helmet>
+  {/* JSON-LD (간단 버전) */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 단지배치도",
+        "description": "평촌 롯데캐슬 르씨엘 단지배치도: 동별 배치, 커뮤니티, 공용시설, 주차 동선 등 단지 전반 구성을 제공합니다.",
+        "url": "https://www.abcya4.com/ComplexGuide/intro"
+      }
+    `}
+  </script>
+</Helmet>
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-      <Bener title="단지배치도" />
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지배치도" />
 
-      <MenuBar contents={menuContents} />
-      {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 단지배치도</h1>
-      <p className={styles.screenReaderOnly}>
-        관저 푸르지오 단지 배치도 페이지입니다. 세대·동 배치, 커뮤니티 및 공용시설,
-        주차와 보행 동선을 시각적으로 안내합니다.
-      </p>
+<MenuBar contents={menuContents} />
 
-      <div className={styles.textBox}>
-        <div>한눈에 보는 단지 구성</div>
-        <div>관저 푸르지오의 배치와 동선을 확인하세요</div>
-      </div>
+{/* 접근성 텍스트 */}
+<h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 단지배치도</h1>
+<p className={styles.screenReaderOnly}>
+  평촌 롯데캐슬 르씨엘 단지배치도 페이지입니다. 세대 및 동 배치, 커뮤니티 공간, 공용시설, 주차와 보행 동선을 시각적으로 안내합니다.
+</p>
+
+<div className={styles.textBox}>
+  <div>한눈에 보는 단지 구성</div>
+  <div>평촌 롯데캐슬 르씨엘의 배치와 동선을 확인하세요</div>
+</div>
+
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
@@ -107,7 +108,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오단지배치도-image1"
+        alt="평촌 롯데캐슬 르씨엘단지배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

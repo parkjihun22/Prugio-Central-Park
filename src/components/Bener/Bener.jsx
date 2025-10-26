@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="관저 푸르지오 배너 이미지"
+                alt="평촌 롯데캐슬 르씨엘 배너 이미지"
             />
             <div className={styles.overlay}></div>
             <div
@@ -41,7 +41,7 @@ export default Bener;
 
 const contents = (text, isLoaded) => {
     if (
-      text === '관저 푸르지오' ||
+      text === '평촌 롯데캐슬 르씨엘' ||
       text === '홍보영상' ||
       text === '체크포인트' ||
       text === '당첨자서류안내'
@@ -52,10 +52,10 @@ const contents = (text, isLoaded) => {
             하루의 끝, 본연으로 돌아오는 품격 있는 임대 프리미엄.
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            대전 서구 관저동 핵심 주거 라이프
+            대전 서구 평촌동 핵심 주거 라이프
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            NO.1 브랜드, 관저 푸르지오와 함께하세요.
+            NO.1 브랜드, 평촌 롯데캐슬 르씨엘와 함께하세요.
           </div>
         </>
       );
@@ -70,7 +70,7 @@ const contents = (text, isLoaded) => {
       return (
         <>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            관저동이 선택한 새로운 주거 기준
+            평촌동이 선택한 새로운 주거 기준
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
             도안 생활권과 풍부한 인프라가 만든 직주근접 프리미엄
@@ -79,7 +79,7 @@ const contents = (text, isLoaded) => {
             안정적인 장기임대로 시작하는 합리적인 라이프
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            관저 푸르지오 임대
+            평촌 롯데캐슬 르씨엘
           </div>
         </>
       );
@@ -90,7 +90,7 @@ const contents = (text, isLoaded) => {
             도안 생활권, 대전 서남권 중심에서 누리는 일상
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            교육·쇼핑·공원까지 한 번에, 관저 푸르지오에서 완성됩니다
+            교육·쇼핑·공원까지 한 번에, 평촌 롯데캐슬 르씨엘에서 완성됩니다
           </div>
         </>
       );
@@ -104,7 +104,7 @@ const contents = (text, isLoaded) => {
             일상에 딱 맞춘 효율적인 공간 계획
           </div>
           <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            가치의 기준, 관저 푸르지오 임대에서 경험하세요
+            가치의 기준, 평촌 롯데캐슬 르씨엘에서 경험하세요
           </div>
         </>
       );

@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import styles from "./UnitplanBox.module.scss";
-import room84A from "../../assets/UnitplanBox/84a.jpg";
-import room84B from "../../assets/UnitplanBox/84b.jpg";
-import room84C from "../../assets/UnitplanBox/84c.jpg";
+import room47A from "../../assets/UnitplanBox/unit_47a.jpg";
+import room84A from "../../assets/UnitplanBox/unit_84a.jpg";
+import room96A from "../../assets/UnitplanBox/unit_96a.jpg";
+import room118A from "../../assets/UnitplanBox/unit_118a.jpg";
+import room119A from "../../assets/UnitplanBox/unit_119a.jpg";
+// import room119B from "../../assets/UnitplanBox/119B.png";
 import { useMediaQuery } from "react-responsive";
 
 const contents = [
+    { type: '47A', src: room47A }, 
     { type: '84A㎡', src: room84A },
-    { type: '84B㎡', src: room84B },
-    { type: '84C㎡', src: room84C },
+    { type: '96A㎡', src: room96A },
+    { type: '118A㎡', src: room118A },
+    { type: '119A㎡', src: room119A },
 
 
 ]
@@ -17,7 +22,7 @@ const contents = [
 const UnitplanBox = () => {
     const [istype, setIsType] = useState(contents[0]); // 기본값은 첫 번째 객체
     const [isIdx, setIdx] = useState(0);
-    const [isImage, setIsImage] = useState(room84C);
+    const [isImage, setIsImage] = useState(room84A);
     const [isLeft, setIsLeft] = useState(false); // 처음에는 왼쪽으로 갈 수 없음
     const [isRight, setIsRight] = useState(true); // 처음에는 오른쪽으로 갈 수 있음
     const [animationClass, setAnimationClass] = useState(''); // 애니메이션 클래스 상태

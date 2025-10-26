@@ -56,23 +56,23 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO */}
-        <title>관저 푸르지오 - 인지세안내</title>
+        <title>평촌 롯데캐슬 르씨엘 - 인지세안내</title>
         <meta
           name="description"
-          content="관저 푸르지오 인지세 안내: 계약서 작성 시 부과되는 인지세의 개념, 세액 기준, 납부 방법과 절차를 한눈에 확인하세요."
+          content="평촌 롯데캐슬 르씨엘 인지세 안내: 계약서 작성 시 부과되는 인지세의 개념, 세액 기준, 납부 방법과 절차를 한눈에 확인하세요."
         />
         <meta
           name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 인지세, 계약세금, 납부 방법"
+          content="평촌 롯데캐슬 르씨엘, 평촌 롯데캐슬 르씨엘, 인지세, 계약세금, 납부 방법"
         />
         <link rel="canonical" href="https://www.abcya4.com/SalesInfo/stampTax" />
 
         {/* Open Graph */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 인지세안내" />
+        <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+        <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 인지세안내" />
         <meta
           property="og:description"
-          content="관저 푸르지오 인지세 안내: 세액 기준과 납부 절차를 확인하세요."
+          content="평촌 롯데캐슬 르씨엘 인지세 안내: 세액 기준과 납부 절차를 확인하세요."
         />
         <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
         <meta property="og:url" content="https://www.abcya4.com/SalesInfo/stampTax" />
@@ -83,8 +83,8 @@ const ComplexGuide1 = () => {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "관저 푸르지오 - 인지세안내",
-              "description": "관저 푸르지오 인지세의 개념, 세액 기준, 납부 방법과 절차 안내.",
+              "name": "평촌 롯데캐슬 르씨엘 - 인지세안내",
+              "description": "평촌 롯데캐슬 르씨엘 인지세의 개념, 세액 기준, 납부 방법과 절차 안내.",
               "url": "https://www.abcya4.com/SalesInfo/stampTax"
             }
           `}
@@ -99,9 +99,9 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
 
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 인지세안내</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 인지세안내</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 인지세 안내 페이지입니다. 인지세의 개념과 세액 기준,
+        평촌 롯데캐슬 르씨엘 인지세 안내 페이지입니다. 인지세의 개념과 세액 기준,
         납부 시기와 방법을 쉽게 설명하여 계약 준비를 돕습니다.
       </p>
 
@@ -117,7 +117,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오인지세안내-image1"
+        alt="평촌 롯데캐슬 르씨엘인지세안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

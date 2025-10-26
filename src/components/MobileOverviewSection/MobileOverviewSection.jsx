@@ -22,47 +22,28 @@ const items = [
     label: "사업개요",
     content: (
       <ul className={styles.detailList}>
-        <li>
-          <strong>사업명</strong>
-          <span>관저 푸르지오 장기임대</span>
-        </li>
-        <li>
-          <strong>대지위치</strong>
-          <span>
-            대전광역시 서구 관저동 일원 (계백지구 A1BL·A2BL) <br />
-          </span>
-        </li>
-        <li>
-          <strong>건축규모</strong>
-          <span>
-            지하 2~3층 / 지상 최고 25층, 8개동
-          </span>
-        </li>
-        <li>
-          <strong>주택형</strong>
-          <span>
-            전용 84㎡ (A/B/C 타입)
-          </span>
-        </li>
-        <li>
-          <strong>세대수</strong>
-          <span>
-            총 660세대 (임대 132세대 포함)
-          </span>
-        </li>
-        <li>
-          <strong>시행/시공</strong>
-          <span>
-            시행: 신한자산신탁㈜ / 시공: ㈜대우건설
-          </span>
-        </li>
-        <li>
-          <strong>입주예정</strong>
-          <span>
-            2026년 11월
-          </span>
-        </li>
-      </ul>
+          <li>
+            <strong>사업명</strong>
+            <span>평촌 롯데캐슬 르씨엘</span>
+          </li>
+          <li>
+            <strong>대지위치</strong>
+            <span>경기도 안양시 동안구 평촌동 일원</span>
+          </li>
+          <li>
+            <strong>건축규모</strong>
+            <span>지하 5층 ~ 지상 48층, </span>
+          </li>
+          <li>
+            <strong>주택형</strong>
+            <span>전용 47㎡, 84㎡,99㎡,114㎡,115㎡ 중심의 다양한 평면 구성</span>
+          </li>
+          <li>
+            <strong>세대수</strong>
+            <span>총 900세대 </span>
+          </li>
+          </ul>
+
     ),
   },
   
@@ -93,8 +74,8 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            관저 중심 생활을 누리는<br />
-            NO.1 브랜드 장기임대 아파트
+            평촌 중심 생활권과 명문 학군을 누리는<br />
+            롯데캐슬 르씨엘 프리미엄 라이프
           </p>
         </div>
 
@@ -109,35 +90,39 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "확정된 개발호재와 광역 접근성",
-      desc: `충청권 광역철도 1단계(예정)와 대전 도시철도 2호선 트램(예정)으로 <br />
-대전 전역은 물론 세종·충청권 주요 거점으로 빠른 이동이 가능합니다. <br />
-서대전IC, 서대전JC, 계백로 등 편리한 도로망도 가까워 교통 프리미엄을 누립니다.`
+      title: "지하철 4호선 더블역세권 프리미엄",
+      desc:
+        "평촌역·범계역 더블역세권 입지<br/>서울·수도권 주요 지역으로 빠른 접근성",
     },
     {
       img: slide2,
-      title: "푸르지오 특화설계와 쾌적한 단지",
-      desc: `세련된 외관 디자인과 함께 채광·통풍을 고려한 단지 배치, <br /> 팬트리·광폭 드레스룸 등 다양한 수납 특화 설계가 적용되었습니다. <br /> 주거의 품격을 높이는 커뮤니티 시설과 조경까지 더해집니다.`
+      title: "명문 학군·학원가 밀집 교육 프리미엄",
+      desc:
+        "단지 인근 초·중·고 밀집<br/>평촌 학원가 인접으로 우수한 교육 환경",
     },
     {
       img: slide3,
-      title: "대전 시내·광역을 더 빠르게",
-      desc: `계백로와 도안대로 확장으로 시내 접근이 용이하며, <br /> 충청권 광역철도와 트램 개통 시 대전 전역·세종·오송 등으로 <br /> 출퇴근과 생활 이동이 더욱 빨라질 예정입니다.`
+      title: "900 세대 대규모 브랜드 타운",
+      desc:
+        "총 900세대 규모<br/>롯데캐슬 브랜드 프리미엄 대단지",
     },
     {
       img: slide4,
-      title: "교육·쇼핑·의료, 가까운 생활 인프라",
-      desc: `느리울초, 가수원초, 느리울중 등 우수한 학군과 학원가 인접, <br /> 건양대병원, 대형마트, 문화·편의시설까지 모두 가까워 <br /> 온 가족이 만족하는 원스톱 생활 인프라를 누릴 수 있습니다.`
+      title: "풍부한 생활·쇼핑·문화 인프라",
+      desc:
+        "백화점·대형마트·문화시설 접근 용이<br/>편리한 원스톱 생활권",
     },
     {
       img: slide5,
-      title: "품격 있는 주거공간 프리미엄",
-      desc: `전용 84㎡ A/B/C 타입 구성으로 3Room·2Bath 구조, <br /> 드레스룸·발코니 확장 등 실속 있는 공간 활용이 가능합니다. <br /> 쾌적하고 효율적인 주거 환경을 제공합니다.`
+      title: "쾌적한 주거환경과 녹지공간",
+      desc:
+        "단지 내 녹지·조경 특화 설계<br/>주변 공원과 연계된 쾌적한 생활",
     },
     {
       img: slide6,
-      title: "안정적인 장기임대의 합리성",
-      desc: `최장 10년 거주가 보장되는 장기임대 형태로 안정적인 주거가 가능하며, <br /> 임대료 인상률은 2년마다 5% 이내로 제한됩니다. <br /> HUG 전세보증보험 가입으로 보증금까지 안전하게 보호됩니다.`
+      title: "커뮤니티 시설과 미래가치",
+      desc:
+        "피트니스·도서관·라운지 등 다양한 커뮤니티<br/>교통·생활 인프라 확장으로 미래가치 기대",
     },
   ];
   // ...이하 슬라이더 렌더링 로직 그대로
@@ -208,7 +193,7 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>Humanville BUSINESS</div>
+        <div className={styles.preTitle}>BUSINESS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>

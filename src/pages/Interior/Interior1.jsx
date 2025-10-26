@@ -60,18 +60,18 @@ const Interior1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        관저 푸르지오 - 인테리어
+        평촌 롯데캐슬 르씨엘 - 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
-        인테리어 페이지에서는 관저 푸르지오의 고급 인테리어 디자인을
+        인테리어 페이지에서는 평촌 롯데캐슬 르씨엘의 고급 인테리어 디자인을
         소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어,
         입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어
         스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>관저 중심의 프리미엄 라이프</div>
-        <div>관저 푸르지오, 새로운 기준을 완성하다</div>
+        <div>평촌 중심의 프리미엄 라이프</div>
+        <div>평촌 롯데캐슬 르씨엘, 새로운 기준을 완성하다</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
@@ -80,7 +80,7 @@ const Interior1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오 59타입 인테리어 이미지"
+        alt="평촌 롯데캐슬 르씨엘 59타입 인테리어 이미지"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

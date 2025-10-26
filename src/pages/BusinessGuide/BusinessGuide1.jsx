@@ -12,8 +12,8 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 const projectData = [
-  { label: "사업명", value: "관저 푸르지오 장기임대" },
-  { label: "사업위치", value: "대전광역시 서구 관저동 (계백지구 A1BL·A2BL)" },
+  { label: "사업명", value: "평촌 롯데캐슬 르씨엘 장기임대" },
+  { label: "사업위치", value: "대전광역시 서구 평촌동 (계백지구 A1BL·A2BL)" },
   { label: "대지면적", value: "약 30,000㎡" },
   { label: "건축규모", value: "지하 2~3층 / 지상 최고 25층, 8개 동" },
   { label: "세대수", value: "총 660세대 (임대 132세대 포함, 전용 84㎡ A/B/C)" },
@@ -24,7 +24,7 @@ const projectData = [
 const BusinessGuide1 = () => {
   const menuContents = [
     { title: "사업안내", url: "/BusinessGuide/intro" },
-    { title: "장기민간임대란", url: "/BusinessGuide/documents" },
+    { title: "분양일정", url: "/BusinessGuide/documents" },
   ];
   const [isScroll, setIsScroll] = useState(false);
   const { pathname } = useLocation(); // 현재 경로를 가져옴
@@ -52,61 +52,62 @@ const BusinessGuide1 = () => {
 
   return (
     <div className={styles.container}>
-    <Helmet>
-      {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-      <meta charSet="utf-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-      {/* SEO 최적화를 위한 메타 태그 */}
-      <title>관저 푸르지오 - 사업안내</title>
-      <meta
-        name="description"
-        content="대전 서구 관저동 관저 푸르지오 임대의 사업 개요를 소개합니다. 단지 규모, 주택형, 시행·시공, 입지와 개발 계획 등 핵심 정보를 한눈에 확인하세요."
-      />
-      <meta
-        name="keywords"
-        content="관저 푸르지오, 관저 푸르지오 임대, 대전 관저동 임대아파트, 장기임대, 전용 84㎡"
-      />
-      <link rel="canonical" href="https://www.abcya4.com/Brand/intro" />
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>평촌 롯데캐슬 르씨엘 - 사업안내</title>
+  <meta
+    name="description"
+    content="경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 사업 개요를 소개합니다. 단지 규모, 세대 구성, 시공사 정보, 입지와 개발 호재 등 핵심 정보를 한눈에 확인하세요."
+  />
+  <meta
+    name="keywords"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 안양 신축 아파트, 1기 신도시 재정비, 평촌 르씨엘 사업안내"
+  />
+  <link rel="canonical" href="https://www.abcya4.com/Brand/intro" />
 
-      {/* Open Graph - 소셜 미디어 공유 최적화 */}
-      <meta property="og:title" content="관저 푸르지오 - 사업안내" />
-      <meta
-        property="og:description"
-        content="관저 푸르지오 임대의 사업 개요와 개발 계획을 확인하세요. 규모, 주택형, 입지, 생활 인프라 등 핵심 정보를 제공합니다."
-      />
-      <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
-      <meta property="og:url" content="https://www.abcya4.com/Brand/intro" />
-      <meta property="og:site_name" content="관저 푸르지오" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 사업안내" />
+  <meta
+    property="og:description"
+    content="경기도 안양시 동안구 평촌동에 들어서는 평촌 롯데캐슬 르씨엘의 사업 개요와 개발 계획을 확인하세요. 입지, 세대 구성, 생활 인프라 등 핵심 정보를 제공합니다."
+  />
+  <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+  <meta property="og:url" content="https://www.abcya4.com/Brand/intro" />
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
 
-      {/* Twitter 카드 설정 */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="관저 푸르지오 - 사업안내" />
-      <meta
-        name="twitter:description"
-        content="대전 관저 푸르지오 임대의 사업 개요 페이지입니다. 단지 정보와 개발 계획을 자세히 안내합니다."
-      />
-      <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
-      <meta name="twitter:url" content="https://www.abcya4.com/Brand/intro" />
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 사업안내" />
+  <meta
+    name="twitter:description"
+    content="경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 사업 개요 페이지입니다. 단지 규모, 입지, 개발 계획 등 주요 정보를 자세히 안내합니다."
+  />
+  <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.abcya4.com/Brand/intro" />
 
-      {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "관저 푸르지오 - 사업안내",
-            "description": "대전 서구 관저동 관저 푸르지오 임대의 사업 개요와 개발 계획을 소개합니다.",
-            "url": "https://www.abcya4.com/Brand/intro"
-          }
-        `}
-      </script>
-    </Helmet>
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 사업안내",
+        "description": "경기도 안양시 동안구 평촌동에 위치한 평촌 롯데캐슬 르씨엘의 사업 개요와 개발 계획을 소개합니다. 입지, 세대 구성, 시공사 정보 등 핵심 정보를 제공합니다.",
+        "url": "https://www.abcya4.com/Brand/intro"
+      }
+    `}
+  </script>
+</Helmet>
+
 
     <Header isChanged={isScroll} />
     <FixIcon />
@@ -116,25 +117,25 @@ const BusinessGuide1 = () => {
     <MenuBar contents={menuContents} />
     {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
     <h1 className={styles.screenReaderOnly}>
-      관저 푸르지오 - 사업안내
+      평촌 롯데캐슬 르씨엘 - 사업안내
     </h1>
     <p className={styles.screenReaderOnly}>
-      관저 푸르지오는 대전 서구 관저동에 조성되는 장기임대 아파트로,
+      평촌 롯데캐슬 르씨엘는 대전 서구 평촌동에 조성되는 장기임대 아파트로,
       합리적인 조건과 검증된 품질, 편리한 생활 인프라를 갖춘 프리미엄 주거공간입니다.
       본 페이지에서는 단지 규모, 주택형, 시행·시공, 입지와 개발 계획 등
       핵심 정보를 안내합니다.
     </p>
 
     <div className={styles.textBox}>
-      <div>관저 중심의 프리미엄 라이프</div>
-      <div>관저 푸르지오의 새로운 자부심으로 찾아옵니다.</div>
+      <div>평촌 중심의 프리미엄 라이프</div>
+      <div>평촌 롯데캐슬 르씨엘의 새로운 자부심으로 찾아옵니다.</div>
     </div>
 
 
       <img
         className={styles.img3}
         src={page1}
-        alt="관저 푸르지오 메인 조감도 -image1"
+        alt="평촌 롯데캐슬 르씨엘 메인 조감도 -image1"
       />
 
       <div className={styles.tableContainer}>

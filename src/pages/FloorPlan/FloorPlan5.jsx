@@ -64,15 +64,15 @@ const FloorPlan5 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-        <div>관저 중심의 프리미엄 라이프</div>
-        <div>관저 푸르지오, 새로운 기준을 완성하다</div>
+        <div>평촌 중심의 프리미엄 라이프</div>
+        <div>평촌 롯데캐슬 르씨엘, 새로운 기준을 완성하다</div>
       </div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="관저 푸르지오 평면사진이미지5"
+				alt="평촌 롯데캐슬 르씨엘 평면사진이미지5"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

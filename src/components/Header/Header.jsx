@@ -25,21 +25,21 @@ const menuArray = [
     title: "사업개요",
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
-      { subTitle: "장기민간임대란", subUrl: "/BusinessGuide/documents" },
+      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
   {
     title: "분양안내",
     subMenu: [
-      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
-      { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
+      // { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
+      // { subTitle: "청약안내문", subUrl: "/SalesInfo/guide" },
       { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+      // { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
     ],
   },
   {
     title: "입지환경",
     subMenu: [
-      // { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
       { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
       { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],
@@ -55,19 +55,25 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
-
-
+      { subTitle: "47A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59B" },
+      { subTitle: "96A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "118A", subUrl: "/FloorPlan/84B" },
+      { subTitle: "119A", subUrl: "/FloorPlan/114A" },
+      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "84A", subUrl: "/Interior/59A" },
-      { subTitle: "84C", subUrl: "/Interior/84A" },
-
+      { subTitle: "인테리어", subUrl: "/Interior/59A" },
+    ],
+  },
+  {
+    title: "홍보센터",
+    subMenu: [
+      // { subTitle: "언론보도", subUrl: "/Promotion/Press" },
+      { subTitle: "관심고객등록", subUrl: "/Promotion/Customer" },
     ],
   },
 ];
@@ -101,9 +107,9 @@ const Header = () => {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu(!isMobileMenu)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#04372e" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#130946" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#04372e" />
+              <IoCloseSharp className={styles.icon} size={25} color="#130946" />
             )}
           </div>
           {isMobileMenu && (
@@ -119,7 +125,7 @@ const Header = () => {
           </Link>
           {/* 모바일에서는 기존 전화 연결 a 태그 유지 */}
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#04372e" />
+            <IoCall className={styles.icon} size={25} color="#130946" />
           </a>
         </div>
         {/* 모바일에서도 팝업을 렌더링 (최상위에서) */}

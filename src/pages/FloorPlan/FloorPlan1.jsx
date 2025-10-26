@@ -58,52 +58,53 @@ const FloorPlan1 = () => {
 <Helmet>
   <meta charSet="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <title>관저 푸르지오 - 평면도</title>
+  <title>평촌 롯데캐슬 르씨엘 - 평면도</title>
 
   {/* 기본 SEO */}
   <meta
     name="description"
-    content="관저 푸르지오 평면도 안내: 방·욕실 배치와 수납 등 세부 구조를 확인하고, 생활 스타일에 맞는 공간을 선택해 보세요."
+    content="평촌 롯데캐슬 르씨엘 평면도 안내: 세대 타입별 공간 구성, 방·욕실 배치, 수납 설계 등 세부 구조를 확인하고 나에게 맞는 타입을 선택하세요."
   />
   <meta
     name="keywords"
-    content="관저 푸르지오, 관저 푸르지오 임대,, 평면도, 세대안내"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 평촌 르씨엘, 평면도, 세대안내, 타입별 구조, 공간 설계"
   />
   <link rel="canonical" href="https://www.abcya4.com/FloorPlan/59A" />
 
-  {/* Open Graph (핵심) */}
-  <meta property="og:site_name" content="관저 푸르지오" />
-  <meta property="og:title" content="관저 푸르지오 - 평면도" />
+  {/* Open Graph (SNS 공유용 핵심 메타) */}
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 평면도" />
   <meta
     property="og:description"
-    content="관저 푸르지오 평면과 주요 특장점을 확인하세요."
+    content="평촌 롯데캐슬 르씨엘의 세대 평면도와 구조를 확인하세요. 타입별 공간 구성과 특장점을 한눈에 볼 수 있습니다."
   />
   <meta property="og:url" content="https://www.abcya4.com/FloorPlan/59A" />
   <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
 
-  {/* Twitter */}
+  {/* Twitter (공유 미리보기) */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="관저 푸르지오 - 평면도" />
+  <meta name="twitter:title" content="평촌 롯데캐슬 르씨엘 - 평면도" />
   <meta
     name="twitter:description"
-    content="관저 푸르지오 평면과 공간 구성을 한눈에."
+    content="평촌 롯데캐슬 르씨엘의 평면도와 공간 구성을 한눈에 확인하세요."
   />
   <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
   <meta name="twitter:url" content="https://www.abcya4.com/FloorPlan/59A" />
 
-  {/* JSON-LD */}
+  {/* JSON-LD (검색엔진 이해용 구조 데이터) */}
   <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "관저 푸르지오 - 평면도",
-        "description": "관저 푸르지오 평면도와 구조 정보를 제공합니다.",
+        "name": "평촌 롯데캐슬 르씨엘 - 평면도",
+        "description": "평촌 롯데캐슬 르씨엘의 타입별 평면도와 공간 구성을 제공합니다.",
         "url": "https://www.abcya4.com/FloorPlan/59A"
       }
     `}
   </script>
 </Helmet>
+
 
 <Header isChanged={isScroll} />
 <FixIcon />
@@ -113,15 +114,15 @@ const FloorPlan1 = () => {
 <MenuBar contents={menuContents} />
 
 {/* 접근성 텍스트 */}
-<h1 className={styles.screenReaderOnly}>관저 푸르지오 - 평면도</h1>
+<h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 평면도</h1>
 <p className={styles.screenReaderOnly}>
-  관저 푸르지오 평면 안내 페이지입니다. 세대의 방·욕실 배치와
+  평촌 롯데캐슬 르씨엘 평면 안내 페이지입니다. 세대의 방·욕실 배치와
   수납, 동선 등 구조를 확인하여 생활 스타일에 맞는 평형을 선택할 수 있습니다.
 </p>
 
 <div className={styles.textBox}>
   <div>내 생활에 맞춘 실속 공간</div>
-  <div>관저 푸르지오 평면을 확인하세요</div>
+  <div>평촌 롯데캐슬 르씨엘 평면을 확인하세요</div>
 </div>
 
 
@@ -131,7 +132,7 @@ const FloorPlan1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오 평면이미지1"
+        alt="평촌 롯데캐슬 르씨엘 평면이미지1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

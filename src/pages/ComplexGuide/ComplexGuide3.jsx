@@ -47,45 +47,46 @@ const ComplexGuide3 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>관저 푸르지오 - 커뮤니티</title>
+<Helmet>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>평촌 롯데캐슬 르씨엘 - 커뮤니티</title>
 
-        {/* 기본 SEO */}
-        <meta
-          name="description"
-          content="관저 푸르지오 커뮤니티: 피트니스, 독서실, 골프연습장, 어린이놀이터 등 단지 내 다양한 커뮤니티 시설을 소개합니다. 입주민의 삶의 질을 높이는 편의와 교류의 공간을 만나보세요."
-        />
-        <meta
-          name="keywords"
-          content="관저 푸르지오, 관저 푸르지오 임대, 커뮤니티, 피트니스, 독서실, 골프연습장, 어린이놀이터"
-        />
-        <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/community" />
+  {/* 기본 SEO */}
+  <meta
+    name="description"
+    content="평촌 롯데캐슬 르씨엘 커뮤니티 시설 안내: 피트니스센터, 독서실, 실내골프연습장, 어린이놀이터 등 입주민의 품격 있는 생활을 위한 다양한 공간을 소개합니다."
+  />
+  <meta
+    name="keywords"
+    content="평촌 롯데캐슬 르씨엘, 롯데캐슬 평촌, 평촌 르씨엘 커뮤니티, 피트니스센터, 독서실, 골프연습장, 어린이놀이터"
+  />
+  <link rel="canonical" href="https://www.abcya4.com/ComplexGuide/community" />
 
-        {/* Open Graph (핵심만) */}
-        <meta property="og:site_name" content="관저 푸르지오" />
-        <meta property="og:title" content="관저 푸르지오 - 커뮤니티" />
-        <meta
-          property="og:description"
-          content="관저 푸르지오 단지 내 커뮤니티 시설 안내. 일상에 즐거움을 더하는 다양한 편의시설을 확인하세요."
-        />
-        <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/community" />
-        <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+  {/* Open Graph (SNS 공유 핵심) */}
+  <meta property="og:site_name" content="평촌 롯데캐슬 르씨엘" />
+  <meta property="og:title" content="평촌 롯데캐슬 르씨엘 - 커뮤니티" />
+  <meta
+    property="og:description"
+    content="평촌 롯데캐슬 르씨엘의 다양한 커뮤니티 시설을 만나보세요. 입주민의 일상에 여유와 활력을 더하는 공간을 제공합니다."
+  />
+  <meta property="og:url" content="https://www.abcya4.com/ComplexGuide/community" />
+  <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
 
-        {/* JSON-LD (간단 버전) */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "관저 푸르지오 - 커뮤니티",
-              "description": "관저 푸르지오 커뮤니티 시설(피트니스, 독서실, 골프연습장, 어린이놀이터 등)을 소개합니다.",
-              "url": "https://www.abcya4.com/ComplexGuide/community"
-            }
-          `}
-        </script>
-      </Helmet>
+  {/* JSON-LD (간단 버전) */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "평촌 롯데캐슬 르씨엘 - 커뮤니티",
+        "description": "평촌 롯데캐슬 르씨엘 커뮤니티 시설(피트니스센터, 독서실, 골프연습장, 어린이놀이터 등)을 소개합니다.",
+        "url": "https://www.abcya4.com/ComplexGuide/community"
+      }
+    `}
+  </script>
+</Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -93,15 +94,15 @@ const ComplexGuide3 = () => {
       <MenuBar contents={menuContents} />
 
       {/* 접근성 텍스트 */}
-      <h1 className={styles.screenReaderOnly}>관저 푸르지오 - 커뮤니티</h1>
+      <h1 className={styles.screenReaderOnly}>평촌 롯데캐슬 르씨엘 - 커뮤니티</h1>
       <p className={styles.screenReaderOnly}>
-        관저 푸르지오 커뮤니티 페이지입니다. 단지 내 피트니스, 독서실, 골프연습장,
+        평촌 롯데캐슬 르씨엘 커뮤니티 페이지입니다. 단지 내 피트니스, 독서실, 골프연습장,
         어린이놀이터 등 다양한 시설을 통해 편리하고 즐거운 일상을 제공합니다.
       </p>
 
       <div className={styles.textBox}>
         <div>함께 누리는 커뮤니티 라이프</div>
-        <div>관저 푸르지오, 일상에 즐거움을 더하다</div>
+        <div>평촌 롯데캐슬 르씨엘, 일상에 즐거움을 더하다</div>
       </div>
 
 
@@ -111,7 +112,7 @@ const ComplexGuide3 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="관저 푸르지오 커뮤니티안내-image1"
+        alt="평촌 롯데캐슬 르씨엘 커뮤니티안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

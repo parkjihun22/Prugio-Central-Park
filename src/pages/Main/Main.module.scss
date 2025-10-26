@@ -66,13 +66,13 @@
 .greyText {
   font-family: 'Paperlogy-8ExtraBold';
     font-weight: 800;
-    color: #04372e; /* 회색 텍스트 */
+    color: #130946; /* 회색 텍스트 */
 }
 
 .blueText {
     font-family: 'Pretendard-Regular';
     font-weight: 800;
-    color: #04372e; /* 파랑 텍스트 */
+    color: #130946; /* 파랑 텍스트 */
 }
 
 .mainImageTitleBox {
@@ -88,7 +88,7 @@
     font-weight: 800;
     font-size: 2.2vw; /* 텍스트2 가장 큰 크기 */
     margin: 0.5vw 0;
-    color: #04372e; /* 파랑 색상 */
+    color: #130946; /* 파랑 색상 */
 }
 
 /* 텍스트 애니메이션 */
@@ -152,7 +152,7 @@
         font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
         font-weight: 800;
         margin: 5px 0;
-        color: #04372e; /* 파랑 색상 */
+        color: #eed61e; /* 파랑 색상 */
         animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
 
@@ -173,7 +173,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
-        color: #04372e; /* 파랑 색상 */
+        color: #130946; /* 파랑 색상 */
     }
 }
 
@@ -295,7 +295,7 @@
 .section2 {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #fff6ea 85%, #04372e 15%);
+    background: linear-gradient(to right, #fff6ea 85%, #130946 15%);
 
     display: flex;
     flex-direction: row;
@@ -433,7 +433,7 @@
     }
 
     .box:hover {
-        background-color: #04372e;
+        background-color: #130946;
         color: #fff7ea;
     }
 }
@@ -938,14 +938,14 @@
         margin: 4vw 0 0 5vw;
         
         .title {
-            color: #04372e;
+            color: #130946;
             font-size: 4vw;
             font-weight: 400;
             line-height: 6vw;
 
             span:first-of-type {
 
-                color: #04372e;
+                color: #130946;
                 font-weight: 800;
                 font-size: 5vw;
             }
@@ -961,7 +961,7 @@
             width: 100%;
 
             .textLine {
-                border: 2px solid #04372e;
+                border: 2px solid #130946;
                 width: 0;
                 height: 7vw;
             }
@@ -1002,7 +1002,7 @@
         width: 80%;
 
         .title {
-            color: #04372e;
+            color: #130946;
 
             font-size: 2vw;
             font-weight: 600;
@@ -1026,13 +1026,13 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #04372e;
+                border: 4px solid #130946;
                 width: 0;
                 height: 3.5vw;
             }
 
             .subText {
-                color: #04372e;
+                color: #130946;
                 font-family: 'Pretendard-Regular';
                 font-size: 1.3vw;
                 line-height: 2vw;
@@ -1070,7 +1070,7 @@
         height: auto;
 
         .title {
-            color: #04372e;
+            color: #130946;
 
             font-size: 2vw;
             font-weight: 600;
@@ -1095,7 +1095,7 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #04372e;
+                border: 4px solid #130946;
                 width: 0;
                 height: 3.5vw;
             }
@@ -1183,12 +1183,12 @@
   .text3 {
     font-family: "NanumHumanTTFBold", sans-serif;
     font-size: 1.5rem;
-    color: #04372e;
+    color: #130946;
     font-weight: bold;
   }
   .text4 {
     font-size: 1.5rem;
-    color: #04372e;
+    color: #130946;
     font-weight: bold;
   }
   
@@ -1233,7 +1233,7 @@
     button {
       padding: 10px 20px;
       font-size: 1rem;
-      background-color: #04372e;
+      background-color: #130946;
       color: #fff;
       border: none;
       border-radius: 4px;

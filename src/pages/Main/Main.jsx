@@ -51,37 +51,37 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `앞선 직주근접 라이프`,
-    text2: `관저 중심·도안 생활권 인프라 인접<br />
-            서대전IC·계백로 활용으로 편리한 출퇴근 동선`,
+    text1: `5,000세대 규모의 브랜드 타운`,
+    text2: `안양 동안구 평촌동 중심 입지<br/>
+            평촌역·범계역 더블역세권 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `안심학세권, 핵심 인프라 라이프`,
-    text2: `느리울·가수원 학군 인접<br />
-            건양대병원·대형마트·문화·체육시설 가까움`,
+    text1: `광역 교통망 확장`,
+    text2: `지하철 4호선 환승 편리<br/>
+            GTX-C(예정) 등 수도권 교통망 수혜`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `대전·세종·충청권을 잇는 광역교통`,
-    text2: `충청권 광역철도·대전 2호선 트램(예정)<br />
-           서대전JC·IC, 계백로 등 광역 교통망`,
+    text1: `교육·생활 인프라 집약`,
+    text2: `평촌 학원가 도보권<br/>
+            대형마트·백화점·문화시설 원스톱 생활`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `안정적인 장기임대의 합리성`,
-    text2: `최장 10년 거주 보장, 임대료 인상률 제한(2년 기준)<br />
-            HUG 보증으로 보증금 안전성 강화`,
-    link: "/LocationEnvironment/primium",
+    text1: `쾌적한 주거환경`,
+    text2: `범계공원·중앙공원 등 녹지 인접<br/>
+            조경 특화 설계로 여유로운 힐링 라이프`,
+    link: "/LocationEnvironment/premium",
     linkText: "더 알아보기 >",
   },
 ];
@@ -196,16 +196,16 @@ const Main = () => {
           )} */}
 
           <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="관저 푸르지오-mainimage1" />
+            <img src={mainImage} className={styles.mainImage} alt="평촌 롯데캐슬 르씨엘-mainimage1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
             <div className={styles.mainImageTextSub}>
               최장 10년 장기임대 <span className={styles.greyText}>안정적 주거</span> | 2년마다 5% 이내 <span className={styles.greyText}>합리적 임대료</span> | 서대전IC·계백로 인접 <span className={styles.greyText}>광역교통</span>
             </div>
             <div className={styles.mainImageTitleBox}>
-              <div className={styles.mainImageText}>관저가 기다린 새로운 기준</div>
+              <div className={styles.mainImageText}>평촌가 기다린 새로운 기준</div>
               <div className={styles.mainImageLine}></div>
-              <div className={styles.mainImageText}>관저 푸르지오</div>
+              <div className={styles.mainImageText}>평촌 롯데캐슬 르씨엘</div>
             </div>
             {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
             <div>
@@ -217,7 +217,7 @@ const Main = () => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="관저 푸르지오 관심고객등록"
+                    alt="평촌 롯데캐슬 르씨엘 관심고객등록"
                   />
                 </button>
               </div>
@@ -230,15 +230,15 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                " 방문 예약 고객 전원 스타벅스 기프티콘 100% 증정 "
-              </div>
-              <div className={styles.text3}>
-                - NO.1 주거 브랜드 ‘푸르지오’가 제안하는 시그니처 라이프<br />
-                - 대전 서구 관저동, 관저 중심 인프라 & 도안 생활권 인접<br />
-                - 충청권 광역철도·대전 2호선 트램(예정) + 서대전IC·계백로 광역교통<br />
-                - 최장 10년 장기임대 / 2년마다 5% 이내 인상 / HUG 보증으로 안심<br />
-                - 커뮤니티·조경·스마트홈까지 일상을 업그레이드
-              </div>
+                  평촌 롯데캐슬 르씨엘 POINT
+                </div>
+                <div className={styles.text3}>
+                - 지하철 4호선 평촌역·범계역 더블역세권 입지<br />
+                - 평촌 학원가·명문 학군 인접, 우수한 교육 환경<br />
+                - GTX-C(예정) 등 수도권 광역교통망 수혜<br />
+                - 중앙공원·범계공원 등 녹지와 인접한 쾌적한 주거환경<br />
+                - 롯데백화점·뉴코아아울렛·대형마트 등 생활·문화 인프라 밀집
+                </div>
 
                 <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -255,7 +255,7 @@ const Main = () => {
                 </div>
               </div>
               <div className={styles.menuBox}>
-                <img src={section1_Image1} alt="관저 푸르지오브랜드소개-image2" />
+                <img src={section1_Image1} alt="평촌 롯데캐슬 르씨엘브랜드소개-image2" />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
                 </Link>
@@ -268,17 +268,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>착한가격의 아파트 관저 푸르지오</span>
+                  <span>착한가격의 아파트 평촌 롯데캐슬 르씨엘</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    관저 푸르지오가함께합니다
+                    평촌 롯데캐슬 르씨엘가함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="관저 푸르지오입지환경소개-image2" />
+              <img src={section8Img3} alt="평촌 롯데캐슬 르씨엘입지환경소개-image2" />
             </div>
           </div>
 
@@ -289,7 +289,7 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />관저 푸르지오에서 펼쳐집니다
+                  기대한 모든 프리미엄이<br />평촌 롯데캐슬 르씨엘에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -301,7 +301,7 @@ const Main = () => {
                   주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="관저 푸르지오아파트 조감도-image3" />
+              <img src={section2_Image1} alt="평촌 롯데캐슬 르씨엘아파트 조감도-image3" />
             </div>
           </div>
 
@@ -324,8 +324,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="관저 푸르지오브랜드소개-image4" />
-                <div className={styles.text1}>관저 푸르지오</div>
+                <img src={section4_Image1} alt="평촌 롯데캐슬 르씨엘브랜드소개-image4" />
+                <div className={styles.text1}>평촌 롯데캐슬 르씨엘</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -342,7 +342,7 @@ const Main = () => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>관저 푸르지오</h2>
+      <h2>평촌 롯데캐슬 르씨엘</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -355,7 +355,7 @@ const Main = () => {
   {/* 입력 폼 */}
   <form
     className={styles.pcVisitForm}
-    action="https://formspree.io/f/xzzjrvyb"
+    action="https://formspree.io/f/mqadbkrp"
     method="POST"
   >
     <label htmlFor="name">
@@ -401,18 +401,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  관저 푸르지오<br />
+                  평촌 롯데캐슬 르씨엘<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    관저 푸르지오가함께합니다
+                    평촌 롯데캐슬 르씨엘가함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="관저 푸르지오오시는길안내-image1" />
+              <img src={map1} alt="평촌 롯데캐슬 르씨엘오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -465,7 +465,7 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="관저 푸르지오mobilemain-image1" />
+            <img src={mobileImageMain} className={styles.mainImage} alt="평촌 롯데캐슬 르씨엘mobilemain-image1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
@@ -476,7 +476,7 @@ const Main = () => {
             </div>
             <div className={styles.mainImageTitleBox1}>
               <div className={styles.mainImageText1}>
-                관저 푸르지오 임대
+                평촌 롯데캐슬 르씨엘
               </div>
 
               </div>
@@ -486,15 +486,15 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              관저 푸르지오 중요 POINT
-            </div>
-            <div className={styles.text3}>
-              - NO.1 주거 브랜드 ‘푸르지오’가 제안하는 시그니처 라이프<br />
-              - 관저 중심 생활권 & 도안 인프라 공유로 생활 편의 극대화<br />
-              - 서대전IC·도안대로 + 충청권 광역철도·대전 2호선 트램 광역교통<br />
-              - 전용 84㎡ A/B/C 팬트리·드레스룸 등 수납 특화 설계<br />
-              - 최장 10년 장기임대 / 2년마다 5% 이내 인상 / HUG 보증으로 안심<br />
-            </div>
+            평촌 롯데캐슬 르씨엘 POINT
+          </div>
+          <div className={styles.text3}>
+          - 지하철 4호선 평촌역·범계역 더블역세권<br />
+          - 평촌 학원가·명문 학군 밀집, 우수한 교육 환경<br />
+          - GTX-C(예정) 등 수도권 광역 교통망 수혜<br />
+          - 중앙공원·범계공원 등 녹지와 인접한 쾌적한 주거환경<br />
+          - 롯데백화점·뉴코아아울렛·대형마트 등 생활·문화 인프라 밀집
+          </div>
 
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -520,18 +520,18 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                관저의 중심으로 사는<br />
+                평촌의 중심으로 사는<br />
                 <span>착한 가격 아파트</span>
               </div>
               <div className={styles.subTitle}>
                 <div className={styles.textLine}></div>
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해<br />
-                  관저 푸르지오가함께합니다
+                  평촌 롯데캐슬 르씨엘가함께합니다
                 </div>
               </div>
             </div>
-            <img src={section8Img3} alt="관저 푸르지오mobile입지안내-image1" />
+            <img src={section8Img3} alt="평촌 롯데캐슬 르씨엘mobile입지안내-image1" />
           </div>
 
           <div className={styles.container3}>
@@ -541,15 +541,15 @@ const Main = () => {
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                관저 푸르지오에서 <br /> 펼쳐집니다
+                평촌 롯데캐슬 르씨엘에서 <br /> 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 <br /> 관저 푸르지오 모델하우스에서 확인하세요
+                프리미엄 주거라이프를 <br /> 평촌 롯데캐슬 르씨엘 모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="관저 푸르지오mobile조감도-image1" />
+            <img src={section2_Image1} alt="평촌 롯데캐슬 르씨엘mobile조감도-image1" />
           </div>
           <UnitInfoSection />
 
@@ -576,7 +576,7 @@ const Main = () => {
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>관저 푸르지오</h2>
+  <h2>평촌 롯데캐슬 르씨엘</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
@@ -586,7 +586,7 @@ const Main = () => {
 
   <form
     className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xzzjrvyb"
+    action="https://formspree.io/f/mqadbkrp"
     method="POST"
   >
     <label htmlFor="name">
@@ -629,7 +629,7 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="관저 푸르지오오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="평촌 롯데캐슬 르씨엘오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
