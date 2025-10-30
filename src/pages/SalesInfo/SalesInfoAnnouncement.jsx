@@ -56,7 +56,7 @@ const ComplexGuide1 = () => {
   // PDF 새 창으로 열기 함수
   const openPDF = () => {
     setIsLoading(true); // PDF 로딩 시작
-    const pdfUrl = "/announcement.pdf"; // 실제 PDF 파일 경로로 수정
+    const pdfUrl = "/[오피스텔 분양광고문(축약)]평촌 롯데캐슬 르씨엘.pdf"; // 실제 PDF 파일 경로로 수정
     const newWindow = window.open(pdfUrl, "_blank");
 
     // PDF 로딩 후 로딩 상태 해제
