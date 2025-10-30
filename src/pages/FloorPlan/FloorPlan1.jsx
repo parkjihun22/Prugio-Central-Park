@@ -11,7 +11,7 @@ import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg";
+import page1 from "../../assets/FloorPlan/FloorPlan1/unit_47a.jpg";
 
 const FloorPlan1 = () => {
   const menuContents = [

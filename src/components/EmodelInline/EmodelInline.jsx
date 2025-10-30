@@ -3,19 +3,22 @@ import styles from "./EmodelInline.module.scss";
 
 // Emodel.jsx 에 정의된 탭과 URL을 그대로 복사합니다.
 const menuContents = [
-  // { title: "46", key: "46" },
-  // { title: "59A", key: "59A" },
+  { title: "47", key: "47" },
+  { title: "84A", key: "84A" },
+  { title: "118A", key: "118A" },
 
 ];
 
 const vrUrls = {
-  // "46": "https://www.googletagmanager.com/ns.html?id=GTM-P5JNCDGS",
-  // "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
+  "47": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
+  "84A": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
+  "118A": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
+
 
 };
 
 export default function EmodelInline() {
-  const [selectedType, setSelectedType] = useState("46");
+  const [selectedType, setSelectedType] = useState("47");
 
   return (
     <div className={styles.inlineWrapper}>

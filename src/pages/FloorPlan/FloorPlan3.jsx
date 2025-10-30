@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan3/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan3/unit_96a.jpg"
 
 const FloorPlan3 = () => {
 	const menuContents = [

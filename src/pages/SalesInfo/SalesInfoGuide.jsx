@@ -7,15 +7,14 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
-// import page1 from "../../assets/SalesInfo/guide/page1.jpg";
+import page1 from "../../assets/SalesInfo/guide/subscription.jpg";
 
 
 import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "분양일정", url: "/BusinessGuide/plan" },
-    { title: "공급안내", url: "/SalesInfo/guide" },
+    { title: "청약안내문", url: "/SalesInfo/guide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
 
   ];
@@ -126,16 +125,14 @@ const ComplexGuide1 = () => {
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="평촌 롯데캐슬 르씨엘청약안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      /> */}
-      <Ready/>
-
+      />
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 고객의 이해를 돕기 위한 것으로 성공적인 청약을 위해

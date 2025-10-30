@@ -17,7 +17,7 @@ const menuArray = [
   {
     title: "브랜드소개",
     subMenu: [
-      { subTitle: "브랜드 소개", subUrl: "/Brand/intro" },
+      // { subTitle: "브랜드 소개", subUrl: "/Brand/intro" },
       { subTitle: "홍보 영상", subUrl: "/Brand/video" },
     ],
   },
@@ -32,7 +32,7 @@ const menuArray = [
     title: "분양안내",
     subMenu: [
       // { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
-      // { subTitle: "청약안내문", subUrl: "/SalesInfo/guide" },
+      { subTitle: "청약안내문", subUrl: "/SalesInfo/guide" },
       { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
       // { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
     ],
@@ -67,13 +67,6 @@ const menuArray = [
     title: "인테리어",
     subMenu: [
       { subTitle: "인테리어", subUrl: "/Interior/59A" },
-    ],
-  },
-  {
-    title: "홍보센터",
-    subMenu: [
-      // { subTitle: "언론보도", subUrl: "/Promotion/Press" },
-      { subTitle: "관심고객등록", subUrl: "/Promotion/Customer" },
     ],
   },
 ];

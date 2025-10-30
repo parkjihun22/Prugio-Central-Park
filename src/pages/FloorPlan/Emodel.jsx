@@ -14,14 +14,16 @@ import { Helmet } from "react-helmet-async";
 const Emodel = () => {
   // ① title 과 key 를 모두 정의해 줍니다.
   const menuContents = [
-    { title: "46㎡", key: "46" },
-    { title: "59A㎡", key: "59A" },
+    { title: "47㎡", key: "47" },
+    { title: "84A㎡", key: "84A" },
+    { title: "118A㎡", key: "118A" },
   ];
 
   // ② menuContents 의 key 와 1:1 매핑되는 URL 객체
   const vrUrls = {
-    // "46":  "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/46.html",
-    // "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
+    "47": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
+    "84A": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
+    "118A": "https://xn--2n1bt8goway3y56cg4aw15a02cyxq.com/vr/tour.html",
 
   };
 

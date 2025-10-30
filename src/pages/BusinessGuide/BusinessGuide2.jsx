@@ -8,7 +8,7 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+import page1 from "../../assets/BusinessGuide/BusinessGuide2/schedule.jpg";
 
 import Ready from "../../components/Ready/Ready";
 
@@ -133,12 +133,11 @@ const BusinessGuide2 = () => {
 
 
       {/* 이미지에 isImageVisible 상태 적용 */}
-      {/* <img
+      <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
         alt="평촌 롯데캐슬 르씨엘분양일정안내-image1"
-      /> */}
-      <Ready/>
+      />
 
       <Footer />
     </div>

@@ -11,12 +11,13 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 // 이미지 파일을 추가해야 합니다
-import page1 from "../../assets/Interior/Interior1/page1.jpg";
+// import page1 from "../../assets/Interior/Interior1/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const Interior1 = () => {
   const menuContents = [
-    { title: "84A", url: "/Interior/59A" },
-    { title: "84C㎡", url: "/Interior/84A" },
+    { title: "인테리어", url: "/Interior/59A" },
+    // { title: "84C㎡", url: "/Interior/84A" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -75,15 +76,16 @@ const Interior1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="평촌 롯데캐슬 르씨엘 59타입 인테리어 이미지"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
 
+        <Ready/>
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로
