@@ -40,73 +40,73 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (
-      text === '평촌 롯데캐슬 르씨엘' ||
-      text === '홍보영상' ||
-      text === '체크포인트' ||
-      text === '당첨자서류안내'
-    ) {
-      return (
-        <>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            하루의 끝, 본연으로 돌아오는 품격 있는 임대 프리미엄.
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            대전 서구 평촌동 핵심 주거 라이프
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            NO.1 브랜드, 평촌 롯데캐슬 르씨엘와 함께하세요.
-          </div>
-        </>
-      );
-    } else if (
-      text === '사업개요' ||
-      text === '세대안내' ||
-      text === '인테리어' ||
-      text === '청약안내' ||
-      text === '모집공고안내' ||
-      text === '인지세납부안내'
-    ) {
-      return (
-        <>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            평촌동이 선택한 새로운 주거 기준
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            도안 생활권과 풍부한 인프라가 만든 직주근접 프리미엄
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            안정적인 장기임대로 시작하는 합리적인 라이프
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            평촌 롯데캐슬 르씨엘
-          </div>
-        </>
-      );
-    } else if (text === '입지환경') {
-      return (
-        <>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            도안 생활권, 대전 서남권 중심에서 누리는 일상
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            교육·쇼핑·공원까지 한 번에, 평촌 롯데캐슬 르씨엘에서 완성됩니다
-          </div>
-        </>
-      );
-    } else if (text === '단지안내') {
-      return (
-        <>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            주거의 품격을 높이는 특화 설계
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            일상에 딱 맞춘 효율적인 공간 계획
-          </div>
-          <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-            가치의 기준, 평촌 롯데캐슬 르씨엘에서 경험하세요
-          </div>
-        </>
-      );
-    }
+  if (
+    text === '평촌 롯데캐슬 르씨엘' ||
+    text === '홍보영상' ||
+    text === '체크포인트' ||
+    text === '당첨자서류안내'
+  ) {
+    return (
+      <>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          도심 위, 스카이라인을 품은 안양의 새로운 중심
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          명문 학군과 프리미엄 라이프를 누리는 평촌 핵심 입지
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          롯데캐슬의 품격, 평촌 롯데캐슬 르씨엘에서 시작됩니다
+        </div>
+      </>
+    );
+  } else if (
+    text === '사업개요' ||
+    text === '세대안내' ||
+    text === '인테리어' ||
+    text === '청약안내' ||
+    text === '모집공고안내' ||
+    text === '인지세납부안내'
+  ) {
+    return (
+      <>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          안양의 스카이라인을 바꾸는 랜드마크 주거타워
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          교육·교통·생활 인프라를 모두 갖춘 평촌 프리미엄 입지
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          아파트 이상의 가치, 주거형 오피스텔의 새로운 기준
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          평촌 롯데캐슬 르씨엘
+        </div>
+      </>
+    );
+  } else if (text === '입지환경') {
+    return (
+      <>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          트리플 역세권 예정, 미래가치 중심에 선 입지
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          학군·편의·녹지까지 완비된 안양 평촌 라이프의 정점
+        </div>
+      </>
+    );
+  } else if (text === '단지안내') {
+    return (
+      <>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          효율적인 공간 설계와 고품격 커뮤니티의 조화
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          남향 위주의 판상형 구조로 채광과 개방감 극대화
+        </div>
+        <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+          프리미엄 주거기준, 평촌 롯데캐슬 르씨엘에서 완성됩니다
+        </div>
+      </>
+    );
+  }
 }

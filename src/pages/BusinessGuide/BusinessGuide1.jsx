@@ -12,13 +12,14 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 const projectData = [
-  { label: "사업명", value: "평촌 롯데캐슬 르씨엘 장기임대" },
-  { label: "사업위치", value: "대전광역시 서구 평촌동 (계백지구 A1BL·A2BL)" },
-  { label: "대지면적", value: "약 30,000㎡" },
-  { label: "건축규모", value: "지하 2~3층 / 지상 최고 25층, 8개 동" },
-  { label: "세대수", value: "총 660세대 (임대 132세대 포함, 전용 84㎡ A/B/C)" },
-  { label: "입주예정", value: "2026년 11월" },
+  { label: "사업명", value: "평촌 롯데캐슬 르씨엘" },
+  { label: "사업위치", value: "경기도 안양시 동안구 평촌동 934번지 일원" },
+  { label: "대지면적", value: "약 10,682㎡" },
+  { label: "건축규모", value: "지하 5층 ~ 지상 48층, 총 4개 동" },
+  { label: "세대수", value: "총 900세대 (주거형 오피스텔)" },
+  { label: "입주예정", value: "2029년 10월 예정" },
 ];
+
 
 
 const BusinessGuide1 = () => {

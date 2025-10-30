@@ -51,40 +51,41 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `5,000세대 규모의 브랜드 타운`,
-    text2: `안양 동안구 평촌동 중심 입지<br/>
-            평촌역·범계역 더블역세권 프리미엄`,
+    text1: `900세대 프리미엄 주거단지`,
+    text2: `안양 동안구 평촌동 핵심 입지<br/>
+            평촌역·범계역 더블 역세권`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `광역 교통망 확장`,
-    text2: `지하철 4호선 환승 편리<br/>
-            GTX-C(예정) 등 수도권 교통망 수혜`,
+    text1: `확장되는 수도권 광역교통망`,
+    text2: `지하철 4호선 환승 편의<br/>
+            GTX-C(예정) 등 교통호재 중심 입지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `교육·생활 인프라 집약`,
+    text1: `교육과 생활 인프라의 중심`,
     text2: `평촌 학원가 도보권<br/>
-            대형마트·백화점·문화시설 원스톱 생활`,
+            백화점·대형마트·문화시설 원스톱 라이프`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `쾌적한 주거환경`,
-    text2: `범계공원·중앙공원 등 녹지 인접<br/>
-            조경 특화 설계로 여유로운 힐링 라이프`,
+    text1: `자연이 함께하는 힐링 주거환경`,
+    text2: `범계공원·중앙공원 인접<br/>
+            특화 조경 설계로 여유로운 일상`,
     link: "/LocationEnvironment/premium",
     linkText: "더 알아보기 >",
   },
 ];
+
 
 
 const Main = () => {
@@ -195,20 +196,21 @@ const Main = () => {
             />
           )} */}
 
-          <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="평촌 롯데캐슬 르씨엘-mainimage1" />
-            <div className={styles.overlay}></div>
-            <div className={styles.mainImageTextBox}>
-            <div className={styles.mainImageTextSub}>
-              최장 10년 장기임대 <span className={styles.greyText}>안정적 주거</span> | 2년마다 5% 이내 <span className={styles.greyText}>합리적 임대료</span> | 서대전IC·계백로 인접 <span className={styles.greyText}>광역교통</span>
-            </div>
-            <div className={styles.mainImageTitleBox}>
-              <div className={styles.mainImageText}>평촌가 기다린 새로운 기준</div>
-              <div className={styles.mainImageLine}></div>
-              <div className={styles.mainImageText}>평촌 롯데캐슬 르씨엘</div>
-            </div>
-            {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
-            <div>
+<div className={styles.imageContainer}>
+  <img src={mainImage} className={styles.mainImage} alt="평촌 롯데캐슬 르씨엘-mainimage1" />
+  <div className={styles.overlay}></div>
+  <div className={styles.mainImageTextBox}>
+    <div className={styles.mainImageTextSub}>
+      4호선 평촌역·범계역 더블역세권 <span className={styles.greyText}>초역세권 입지</span> | 학군·학원가 밀집 <span className={styles.greyText}>교육 특화</span> | 스카이라운지·피트니스 등 <span className={styles.greyText}>프리미엄 커뮤니티</span>
+    </div>
+    <div className={styles.mainImageTitleBox}>
+      <div className={styles.mainImageText}>평촌이 기다려온 새로운 주거기준</div>
+      <div className={styles.mainImageLine}></div>
+      <div className={styles.mainImageText}>평촌 롯데캐슬 르씨엘</div>
+    </div>
+    {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
+    <div>
+
 
                 <button
                   onClick={() => setIsInterestPopupOpen(true)}
@@ -233,12 +235,13 @@ const Main = () => {
                   평촌 롯데캐슬 르씨엘 POINT
                 </div>
                 <div className={styles.text3}>
-                - 지하철 4호선 평촌역·범계역 더블역세권 입지<br />
-                - 평촌 학원가·명문 학군 인접, 우수한 교육 환경<br />
-                - GTX-C(예정) 등 수도권 광역교통망 수혜<br />
-                - 중앙공원·범계공원 등 녹지와 인접한 쾌적한 주거환경<br />
-                - 롯데백화점·뉴코아아울렛·대형마트 등 생활·문화 인프라 밀집
+                  - 지하철 4호선 평촌역·범계역 더블 역세권 프리미엄<br />
+                  - 명문 학군·평촌 학원가 인접, 우수한 교육 인프라<br />
+                  - GTX-C(예정) 등 수도권 광역교통망 확장 수혜<br />
+                  - 중앙공원·범계공원 인근, 녹지와 함께하는 쾌적한 환경<br />
+                  - 롯데백화점·뉴코아·대형마트 등 풍부한 생활·문화 인프라
                 </div>
+
 
                 <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -469,16 +472,15 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
-              서대전IC·계백로 인접<br/>
-              대전·세종·충청권 광역 접근성<br/>
-              충청권 광역철도·대전 2호선 트램<br/>
-              최장 10년 장기임대, 안심 주거<br/>
+              평촌역·범계역 도보 이용<br/>
+              GTX-C 교통 개발 수혜<br/>
+              평촌 학원가·명문 학군 도보권<br/>
+              프리미엄을 담은 중대형 위주 설계
             </div>
             <div className={styles.mainImageTitleBox1}>
               <div className={styles.mainImageText1}>
                 평촌 롯데캐슬 르씨엘
               </div>
-
               </div>
             </div>
           </div>

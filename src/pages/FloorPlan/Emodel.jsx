@@ -20,8 +20,8 @@ const Emodel = () => {
 
   // ② menuContents 의 key 와 1:1 매핑되는 URL 객체
   const vrUrls = {
-    "46":  "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/46.html",
-    "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
+    // "46":  "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/46.html",
+    // "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
 
   };
 

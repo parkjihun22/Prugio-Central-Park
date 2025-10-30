@@ -22,44 +22,42 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 const LocationSection = [
   {
     img: section2Image1,
-    titleText:
-      "가시화되는 개발호재로<br />평촌의 미래가치가 높아집니다",
+    titleText: "주거 선호 1위, 평촌 핵심 입지<br />생활 인프라 집약 지역",
     contentText:
-      "충청권 광역철도·대전 2호선 트램(예정) 연계<br />서대전IC·계백로·도안대로 등 광역 교통망",
+      "롯데백화점·이마트·한림대병원 도보권<br />편의·의료·문화시설이 가까운 원스톱 생활",
   },
   {
     img: section2Image2,
-    titleText: "푸르지오 특화설계와 쾌적한 단지설계",
+    titleText: "4호선 더블 역세권<br />GTX-C 예정 노선 수혜지",
     contentText:
-      "채광·통풍 고려한 배치와 세련된 외관<br />팬트리·드레스룸 등 수납 특화 설계",
+      "평촌역·범계역 도보권<br />GTX-C(예정)·인덕원~동탄선 신설 수혜",
   },
   {
     img: section2Image3,
-    titleText: "대전·세종·충청권을 더 빠르게<br />광역 접근성 프리미엄",
+    titleText: "평촌 학원가 도보권<br />우수한 교육 인프라 집중",
     contentText:
-      "계백로·도안대로 확장으로 시내 접근 용이<br />서대전JC·IC 연계로 광역 이동 수월",
+      "초·중·고 명문 학군 인접<br />수도권 대표 교육특구 평촌 중심",
   },
   {
     img: section2Image4,
-    titleText:
-      "학교·쇼핑·의료·문화를 한걸음에<br />모두 갖춘 중심 생활",
+    titleText: "900세대 대단지 프리미엄<br />브랜드가 만든 스카이 랜드마크",
     contentText:
-      "느리울·가수원 학군 인접<br />건양대병원·대형마트·문화시설 가까움",
+      "지상 48층, 고층 설계와 롯데캐슬 프리미엄<br />중대형 중심, 희소가치 높은 고급 상품 구성",
   },
   {
     img: section2Image5,
-    titleText: "품격 있는 주거공간 프리미엄",
+    titleText: "특화 커뮤니티 & 설계 혁신",
     contentText:
-      "전용 84㎡ A/B/C, 3Room·2Bath 구성<br />발코니 확장과 효율적 동선으로 만족도↑",
+      "스카이라운지·피트니스·골프연습장 등 커뮤니티<br />4Bay 구조와 팬트리·드레스룸 특화 설계",
   },
   {
     img: section2Image6,
-    titleText:
-      "숲과 공원으로 누리는 힐링 라이프<br />일상에 여유를 더하다",
+    titleText: "중앙공원·범계공원 인접<br />쾌적한 자연과 함께하는 일상",
     contentText:
-      "구봉산 둘레길·느리울·도안 근린공원 인접<br />산책·여가를 즐기는 쾌적한 주거환경",
+      "단지 내 녹지 설계 + 주변 공원 연계<br />산책·여가를 누리는 힐링 라이프",
   },
 ];
+
 
 
 const LocationEnvironment1 = () => {
